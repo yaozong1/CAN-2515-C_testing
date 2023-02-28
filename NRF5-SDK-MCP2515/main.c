@@ -31,41 +31,9 @@
 #include "nrfx_spim.h"
 
 
-/**@brief Function for putting the chip into sleep mode.
- *
- * @note This function will not return.
- */ 
-static void sleep_mode_enter(void)
-{
-    NRF_LOG_DEBUG("Enter sleep mode...");
-    NRF_LOG_FLUSH();
 
-    ret_code_t err_code;
 
-    err_code = bsp_indication_set(BSP_INDICATE_IDLE);
-    APP_ERROR_CHECK(err_code);
 
-    // Prepare wakeup buttons.
-    err_code = bsp_btn_ble_sleep_mode_prepare();
-    APP_ERROR_CHECK(err_code);
-
-    // Go to system-off mode (this function will not return; wakeup will cause a reset).
-    if (nrf_sdh_is_enabled())
-    {
-        NRF_LOG_DEBUG("SoftDevice Enabled");
-        NRF_LOG_FLUSH();
-
-        err_code = sd_power_system_off();
-        APP_ERROR_CHECK(err_code);
-    }
-    else
-    {
-        NRF_LOG_DEBUG("SoftDevice Disabled");
-        NRF_LOG_FLUSH();
-
-        nrf_pwr_mgmt_shutdown(NRF_PWR_MGMT_SHUTDOWN_GOTO_SYSOFF);
-    }
-}
 
 
 
@@ -84,7 +52,7 @@ void bsp_event_handler(bsp_event_t event)
         {
             NRF_LOG_DEBUG("BSP Event: SLEEP");
 
-            sleep_mode_enter();
+
 
             break;
         }
@@ -289,16 +257,7 @@ int main(void)
 
      printf("enable CAN power\r\n");
 
-    ////SET Regulator to 3.3V
-    //if (NRF_UICR->REGOUT0 != UICR_REGOUT0_VOUT_3V3) 
-    //{
-    //    NRF_NVMC->CONFIG = NVMC_CONFIG_WEN_Wen << NVMC_CONFIG_WEN_Pos;
-    //    while (NRF_NVMC->READY == NVMC_READY_READY_Busy){}
-    //    NRF_UICR->REGOUT0 = UICR_REGOUT0_VOUT_3V3;
 
-    //    NRF_NVMC->CONFIG = NVMC_CONFIG_WEN_Ren << NVMC_CONFIG_WEN_Pos;
-    //    while (NRF_NVMC->READY == NVMC_READY_READY_Busy){}
-    //}
     //Enable CAN POWER
     nrf_gpio_cfg_output(NRF_GPIO_PIN_MAP(0,0));
     nrf_delay_ms(10);
