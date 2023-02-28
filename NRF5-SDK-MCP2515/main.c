@@ -203,19 +203,7 @@ static void buttons_leds_init(void)
 }
 
 
-/**@brief Function for initializing power management.
- */ 
-static void power_management_init(void)
-{
-    NRF_LOG_DEBUG("Power Management Initialization...");
 
-    ret_code_t err_code;
-
-    err_code = nrf_pwr_mgmt_init();
-    APP_ERROR_CHECK(err_code);
-
-    NRF_LOG_DEBUG("Power Management Initialization COMPLETED.");
-}
 
 
 
@@ -270,11 +258,11 @@ int main(void)
     mem_init();
     //clock_init();
     //timers_init();
-    buttons_leds_init();//important
+
     //power_management_init();
-    
+    buttons_leds_init();//important
     can_init();
-  
+    
     // Start execution.
     NRF_LOG_DEBUG("CAN started.");
     

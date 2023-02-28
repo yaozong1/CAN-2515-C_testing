@@ -5268,8 +5268,6 @@ Discarded input sections
                 0x0000000000000000       0x88 Output/Debug/Obj/MCPDriver/main.o
  .text.timers_init
                 0x0000000000000000       0x68 Output/Debug/Obj/MCPDriver/main.o
- .text.power_management_init
-                0x0000000000000000       0x68 Output/Debug/Obj/MCPDriver/main.o
  .debug_macro   0x0000000000000000      0xb44 Output/Debug/Obj/MCPDriver/main.o
  .debug_macro   0x0000000000000000      0x1a3 Output/Debug/Obj/MCPDriver/main.o
  .debug_macro   0x0000000000000000       0x89 Output/Debug/Obj/MCPDriver/main.o
@@ -15428,7 +15426,7 @@ Linker script and memory map
                 0x0000000000000001                . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .ctors is too large to fit in FLASH memory segment)
                 0x0000000000031b88                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
 
-.rodata         0x0000000000031b88     0x2656
+.rodata         0x0000000000031b88     0x2606
                 0x0000000000031b88                __rodata_start__ = .
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.m_bsp_leds_tmr
@@ -15478,176 +15476,176 @@ Linker script and memory map
  *fill*         0x0000000000032431        0x3 
  .rodata        0x0000000000032434       0xaa Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
  *fill*         0x00000000000324de        0x2 
- .rodata        0x00000000000324e0      0x3cc Output/Debug/Obj/MCPDriver/main.o
- *fill*         0x00000000000328ac        0x4 
+ .rodata        0x00000000000324e0      0x37c Output/Debug/Obj/MCPDriver/main.o
+ *fill*         0x000000000003285c        0x4 
  .rodata.delay_machine_code.0
-                0x00000000000328b0        0x6 Output/Debug/Obj/MCPDriver/main.o
- *fill*         0x00000000000328b6        0x2 
- .rodata        0x00000000000328b8       0x17 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
- *fill*         0x00000000000328cf        0x1 
- .rodata        0x00000000000328d0       0xa7 Output/Debug/Obj/MCPDriver/mcp_can.o
- *fill*         0x0000000000032977        0x1 
+                0x0000000000032860        0x6 Output/Debug/Obj/MCPDriver/main.o
+ *fill*         0x0000000000032866        0x2 
+ .rodata        0x0000000000032868       0x17 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+ *fill*         0x000000000003287f        0x1 
+ .rodata        0x0000000000032880       0xa7 Output/Debug/Obj/MCPDriver/mcp_can.o
+ *fill*         0x0000000000032927        0x1 
  .rodata.can_spi
-                0x0000000000032978       0x10 Output/Debug/Obj/MCPDriver/mcp_can.o
- *fill*         0x0000000000032988        0x8 
+                0x0000000000032928       0x10 Output/Debug/Obj/MCPDriver/mcp_can.o
+ *fill*         0x0000000000032938        0x8 
  .rodata.delay_machine_code.0
-                0x0000000000032990        0x6 Output/Debug/Obj/MCPDriver/mcp_can.o
- *fill*         0x0000000000032996        0x2 
- .rodata        0x0000000000032998       0xd6 Output/Debug/Obj/MCPDriver/nrf_sdh.o
- *fill*         0x0000000000032a6e        0x2 
+                0x0000000000032940        0x6 Output/Debug/Obj/MCPDriver/mcp_can.o
+ *fill*         0x0000000000032946        0x2 
+ .rodata        0x0000000000032948       0xd6 Output/Debug/Obj/MCPDriver/nrf_sdh.o
+ *fill*         0x0000000000032a1e        0x2 
  .rodata.sdh_req_observers
-                0x0000000000032a70        0xc Output/Debug/Obj/MCPDriver/nrf_sdh.o
+                0x0000000000032a20        0xc Output/Debug/Obj/MCPDriver/nrf_sdh.o
  .rodata.sdh_state_observers
-                0x0000000000032a7c        0xc Output/Debug/Obj/MCPDriver/nrf_sdh.o
+                0x0000000000032a2c        0xc Output/Debug/Obj/MCPDriver/nrf_sdh.o
  .rodata.sdh_stack_observers
-                0x0000000000032a88        0xc Output/Debug/Obj/MCPDriver/nrf_sdh.o
- .rodata        0x0000000000032a94      0x35e Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
- *fill*         0x0000000000032df2        0x2 
+                0x0000000000032a38        0xc Output/Debug/Obj/MCPDriver/nrf_sdh.o
+ .rodata        0x0000000000032a44      0x35e Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+ *fill*         0x0000000000032da2        0x2 
  .rodata.sdh_ble_observers
-                0x0000000000032df4        0xc Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
- .rodata        0x0000000000032e00       0xde Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
- *fill*         0x0000000000032ede        0x2 
+                0x0000000000032da4        0xc Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+ .rodata        0x0000000000032db0       0xde Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+ *fill*         0x0000000000032e8e        0x2 
  .rodata.sdh_soc_observers
-                0x0000000000032ee0        0xc Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
- .rodata        0x0000000000032eec       0x94 Output/Debug/Obj/MCPDriver/app_button.o
+                0x0000000000032e90        0xc Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+ .rodata        0x0000000000032e9c       0x94 Output/Debug/Obj/MCPDriver/app_button.o
  .rodata.m_detection_delay_timer_id
-                0x0000000000032f80        0x4 Output/Debug/Obj/MCPDriver/app_button.o
- .rodata        0x0000000000032f84       0xb4 Output/Debug/Obj/MCPDriver/app_error_weak.o
- .rodata        0x0000000000033038       0x98 Output/Debug/Obj/MCPDriver/app_timer2.o
- .rodata        0x00000000000330d0       0x8d Output/Debug/Obj/MCPDriver/app_util_platform.o
- *fill*         0x000000000003315d        0x3 
- .rodata        0x0000000000033160       0x7e Output/Debug/Obj/MCPDriver/fds.o
- *fill*         0x00000000000331de        0x2 
+                0x0000000000032f30        0x4 Output/Debug/Obj/MCPDriver/app_button.o
+ .rodata        0x0000000000032f34       0xb4 Output/Debug/Obj/MCPDriver/app_error_weak.o
+ .rodata        0x0000000000032fe8       0x98 Output/Debug/Obj/MCPDriver/app_timer2.o
+ .rodata        0x0000000000033080       0x8d Output/Debug/Obj/MCPDriver/app_util_platform.o
+ *fill*         0x000000000003310d        0x3 
+ .rodata        0x0000000000033110       0x7e Output/Debug/Obj/MCPDriver/fds.o
+ *fill*         0x000000000003318e        0x2 
  .rodata.page_tag_swap.7
-                0x00000000000331e0        0x8 Output/Debug/Obj/MCPDriver/fds.o
+                0x0000000000033190        0x8 Output/Debug/Obj/MCPDriver/fds.o
  .rodata.page_tag_data.6
-                0x00000000000331e8        0x8 Output/Debug/Obj/MCPDriver/fds.o
+                0x0000000000033198        0x8 Output/Debug/Obj/MCPDriver/fds.o
  .rodata.dirty_header.5
-                0x00000000000331f0        0x4 Output/Debug/Obj/MCPDriver/fds.o
- .rodata        0x00000000000331f4       0x87 Output/Debug/Obj/MCPDriver/mem_manager.o
- *fill*         0x000000000003327b        0x1 
+                0x00000000000331a0        0x4 Output/Debug/Obj/MCPDriver/fds.o
+ .rodata        0x00000000000331a4       0x87 Output/Debug/Obj/MCPDriver/mem_manager.o
+ *fill*         0x000000000003322b        0x1 
  .rodata.m_block_size
-                0x000000000003327c       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
+                0x000000000003322c       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
  .rodata.m_block_start
-                0x0000000000033298       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
+                0x0000000000033248       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
  .rodata.m_block_end
-                0x00000000000332b4       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
+                0x0000000000033264       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
  .rodata.m_block_mem_start
-                0x00000000000332d0       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
- .rodata        0x00000000000332ec       0x88 Output/Debug/Obj/MCPDriver/nrf_balloc.o
- .rodata        0x0000000000033374       0x7e Output/Debug/Obj/MCPDriver/nrf_fprintf.o
- *fill*         0x00000000000333f2        0x2 
- .rodata        0x00000000000333f4       0x85 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
- *fill*         0x0000000000033479        0x3 
+                0x0000000000033280       0x1c Output/Debug/Obj/MCPDriver/mem_manager.o
+ .rodata        0x000000000003329c       0x88 Output/Debug/Obj/MCPDriver/nrf_balloc.o
+ .rodata        0x0000000000033324       0x7e Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+ *fill*         0x00000000000333a2        0x2 
+ .rodata        0x00000000000333a4       0x85 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+ *fill*         0x0000000000033429        0x3 
  .rodata._aV2C.0
-                0x000000000003347c       0x10 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
- .rodata        0x000000000003348c      0x1b3 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
- *fill*         0x000000000003363f        0x1 
+                0x000000000003342c       0x10 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+ .rodata        0x000000000003343c      0x1b3 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ *fill*         0x00000000000335ef        0x1 
  .rodata.__func__.1
-                0x0000000000033640       0x13 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
- *fill*         0x0000000000033653        0x1 
+                0x00000000000335f0       0x13 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ *fill*         0x0000000000033603        0x1 
  .rodata.__func__.0
-                0x0000000000033654       0x13 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
- *fill*         0x0000000000033667        0x1 
- .rodata        0x0000000000033668       0x88 Output/Debug/Obj/MCPDriver/nrf_memobj.o
- .rodata        0x00000000000336f0      0x1c4 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
- .rodata        0x00000000000338b4       0x86 Output/Debug/Obj/MCPDriver/nrf_queue.o
+                0x0000000000033604       0x13 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ *fill*         0x0000000000033617        0x1 
+ .rodata        0x0000000000033618       0x88 Output/Debug/Obj/MCPDriver/nrf_memobj.o
+ .rodata        0x00000000000336a0      0x1c4 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+ .rodata        0x0000000000033864       0x86 Output/Debug/Obj/MCPDriver/nrf_queue.o
  .rodata.full_queue_indicator.0
-                0x000000000003393a        0x1 Output/Debug/Obj/MCPDriver/nrf_queue.o
- *fill*         0x000000000003393b        0x1 
- .rodata        0x000000000003393c       0xa1 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
- *fill*         0x00000000000339dd        0x3 
- .rodata        0x00000000000339e0       0x98 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+                0x00000000000338ea        0x1 Output/Debug/Obj/MCPDriver/nrf_queue.o
+ *fill*         0x00000000000338eb        0x1 
+ .rodata        0x00000000000338ec       0xa1 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+ *fill*         0x000000000003398d        0x3 
+ .rodata        0x0000000000033990       0x98 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
  .rodata.m_unknown_str
-                0x0000000000033a78       0x13 Output/Debug/Obj/MCPDriver/nrf_strerror.o
- *fill*         0x0000000000033a8b        0x1 
- .rodata        0x0000000000033a8c      0x3e9 Output/Debug/Obj/MCPDriver/nrf_strerror.o
- *fill*         0x0000000000033e75        0x3 
+                0x0000000000033a28       0x13 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+ *fill*         0x0000000000033a3b        0x1 
+ .rodata        0x0000000000033a3c      0x3e9 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+ *fill*         0x0000000000033e25        0x3 
  .rodata.nrf_strerror_array
-                0x0000000000033e78      0x128 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+                0x0000000000033e28      0x128 Output/Debug/Obj/MCPDriver/nrf_strerror.o
  .rodata.libc.__RAL_find_locale.str1.4
-                0x0000000000033fa0        0xa C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
- *fill*         0x0000000000033faa        0x2 
+                0x0000000000033f50        0xa C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+ *fill*         0x0000000000033f5a        0x2 
  .rodata.libc.__RAL_ascii_ctype_map
-                0x0000000000033fac       0x80 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000033fac                __RAL_ascii_ctype_map
+                0x0000000000033f5c       0x80 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000033f5c                __RAL_ascii_ctype_map
  .rodata.libc.__RAL_ascii_ctype_mask
-                0x000000000003402c        0xd C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
- *fill*         0x0000000000034039        0x3 
+                0x0000000000033fdc        0xd C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+ *fill*         0x0000000000033fe9        0x3 
  .rodata.libc.__RAL_c_locale
-                0x000000000003403c        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000003403c                __RAL_c_locale
+                0x0000000000033fec        0xc C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000033fec                __RAL_c_locale
  .rodata.libc.__RAL_c_locale_abbrev_day_names
-                0x0000000000034048       0x1d C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000034048                __RAL_c_locale_abbrev_day_names
- *fill*         0x0000000000034065        0x3 
+                0x0000000000033ff8       0x1d C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000033ff8                __RAL_c_locale_abbrev_day_names
+ *fill*         0x0000000000034015        0x3 
  .rodata.libc.__RAL_c_locale_abbrev_month_names
-                0x0000000000034068       0x31 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000034068                __RAL_c_locale_abbrev_month_names
- *fill*         0x0000000000034099        0x3 
+                0x0000000000034018       0x31 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000034018                __RAL_c_locale_abbrev_month_names
+ *fill*         0x0000000000034049        0x3 
  .rodata.libc.__RAL_c_locale_am_pm_indicator
-                0x000000000003409c        0x7 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000003409c                __RAL_c_locale_am_pm_indicator
- *fill*         0x00000000000340a3        0x1 
+                0x000000000003404c        0x7 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x000000000003404c                __RAL_c_locale_am_pm_indicator
+ *fill*         0x0000000000034053        0x1 
  .rodata.libc.__RAL_c_locale_data
-                0x00000000000340a4       0x58 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000340a4                __RAL_c_locale_data
+                0x0000000000034054       0x58 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000034054                __RAL_c_locale_data
  .rodata.libc.__RAL_c_locale_date_format
-                0x00000000000340fc        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000340fc                __RAL_c_locale_date_format
- *fill*         0x0000000000034105        0x3 
+                0x00000000000340ac        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000340ac                __RAL_c_locale_date_format
+ *fill*         0x00000000000340b5        0x3 
  .rodata.libc.__RAL_c_locale_date_time_format
-                0x0000000000034108        0xf C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000034108                __RAL_c_locale_date_time_format
- *fill*         0x0000000000034117        0x1 
+                0x00000000000340b8        0xf C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000340b8                __RAL_c_locale_date_time_format
+ *fill*         0x00000000000340c7        0x1 
  .rodata.libc.__RAL_c_locale_day_names
-                0x0000000000034118       0x3a C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000034118                __RAL_c_locale_day_names
- *fill*         0x0000000000034152        0x2 
+                0x00000000000340c8       0x3a C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000340c8                __RAL_c_locale_day_names
+ *fill*         0x0000000000034102        0x2 
  .rodata.libc.__RAL_c_locale_month_names
-                0x0000000000034154       0x57 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000034154                __RAL_c_locale_month_names
- *fill*         0x00000000000341ab        0x1 
+                0x0000000000034104       0x57 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000034104                __RAL_c_locale_month_names
+ *fill*         0x000000000003415b        0x1 
  .rodata.libc.__RAL_c_locale_time_format
-                0x00000000000341ac        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000341ac                __RAL_c_locale_time_format
- *fill*         0x00000000000341b5        0x3 
+                0x000000000003415c        0x9 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x000000000003415c                __RAL_c_locale_time_format
+ *fill*         0x0000000000034165        0x3 
  .rodata.libc.__RAL_codeset_ascii
-                0x00000000000341b8       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000341b8                __RAL_codeset_ascii
+                0x0000000000034168       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000034168                __RAL_codeset_ascii
  .rodata.libc.__RAL_data_empty_string
-                0x00000000000341d8        0x1 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000341d8                __RAL_data_empty_string
- *fill*         0x00000000000341d9        0x3 
+                0x0000000000034188        0x1 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000034188                __RAL_data_empty_string
+ *fill*         0x0000000000034189        0x3 
  .rodata.libc.__RAL_data_utf8_period
-                0x00000000000341dc        0x2 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000341dc                __RAL_data_utf8_period
-                0x00000000000341de                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
-                0x0000000000002656                __rodata_size__ = SIZEOF (.rodata)
-                0x00000000000341de                __rodata_load_end__ = __rodata_end__
+                0x000000000003418c        0x2 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x000000000003418c                __RAL_data_utf8_period
+                0x000000000003418e                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
+                0x0000000000002606                __rodata_size__ = SIZEOF (.rodata)
+                0x000000000003418e                __rodata_load_end__ = __rodata_end__
 
-.rel.dyn        0x00000000000341e0        0x0
- .rel.iplt      0x00000000000341e0        0x0 Output/Debug/Obj/MCPDriver/thumb_crt0.o
+.rel.dyn        0x0000000000034190        0x0
+ .rel.iplt      0x0000000000034190        0x0 Output/Debug/Obj/MCPDriver/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__rodata_start__ == __rodata_end__) || ((__rodata_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .rodata is too large to fit in FLASH memory segment)
-                0x00000000000341e0                __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
+                0x0000000000034190                __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
 
-.ARM.exidx      0x00000000000341e0        0x0
-                0x00000000000341e0                __ARM.exidx_start__ = .
-                0x00000000000341e0                __exidx_start = __ARM.exidx_start__
+.ARM.exidx      0x0000000000034190        0x0
+                0x0000000000034190                __ARM.exidx_start__ = .
+                0x0000000000034190                __exidx_start = __ARM.exidx_start__
  *(.ARM.exidx .ARM.exidx.*)
-                0x00000000000341e0                __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
+                0x0000000000034190                __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
                 0x0000000000000000                __ARM.exidx_size__ = SIZEOF (.ARM.exidx)
-                0x00000000000341e0                __exidx_end = __ARM.exidx_end__
-                0x00000000000341e0                __ARM.exidx_load_end__ = __ARM.exidx_end__
+                0x0000000000034190                __exidx_end = __ARM.exidx_end__
+                0x0000000000034190                __ARM.exidx_load_end__ = __ARM.exidx_end__
                 0x0000000000000001                . = ASSERT (((__ARM.exidx_start__ == __ARM.exidx_end__) || ((__ARM.exidx_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .ARM.exidx is too large to fit in FLASH memory segment)
-                0x00000000000341e0                __fast_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
+                0x0000000000034190                __fast_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
 
-.fast           0x0000000020002c24        0x0 load address 0x00000000000341e0
+.fast           0x0000000020002c24        0x0 load address 0x0000000000034190
                 0x0000000020002c24                __fast_start__ = .
  *(.fast .fast.*)
                 0x0000000020002c24                __fast_end__ = (__fast_start__ + SIZEOF (.fast))
                 0x0000000000000000                __fast_size__ = SIZEOF (.fast)
-                0x00000000000341e0                __fast_load_end__ = (__fast_load_start__ + SIZEOF (.fast))
+                0x0000000000034190                __fast_load_end__ = (__fast_load_start__ + SIZEOF (.fast))
                 0x0000000000000001                . = ASSERT (((__fast_load_start__ == __fast_load_end__) || ((__fast_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .fast is too large to fit in FLASH memory segment)
 
 .fast_run       0x0000000020002c24        0x0
@@ -15656,9 +15654,9 @@ Linker script and memory map
                 0x0000000000000000                __fast_run_size__ = (__fast_run_end__ - __fast_run_start__)
                 0x0000000020002c24                __fast_run_load_end__ = __fast_run_end__
                 0x0000000000000001                . = ASSERT (((__fast_run_start__ == __fast_run_end__) || ((__fast_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .fast_run is too large to fit in RAM1 memory segment)
-                0x00000000000341e0                __data_load_start__ = ALIGN ((__fast_load_start__ + SIZEOF (.fast)), 0x4)
+                0x0000000000034190                __data_load_start__ = ALIGN ((__fast_load_start__ + SIZEOF (.fast)), 0x4)
 
-.data           0x0000000020002c24       0x68 load address 0x00000000000341e0
+.data           0x0000000020002c24       0x68 load address 0x0000000000034190
                 0x0000000020002c24                __data_start__ = .
  *(.data .data.* .gnu.linkonce.d.*)
  .data.log_backend_cb_rtt_log_backend
@@ -15682,7 +15680,7 @@ Linker script and memory map
                 0x0000000020002c78                __RAL_global_locale
                 0x0000000020002c8c                __data_end__ = (__data_start__ + SIZEOF (.data))
                 0x0000000000000068                __data_size__ = SIZEOF (.data)
-                0x0000000000034248                __data_load_end__ = (__data_load_start__ + SIZEOF (.data))
+                0x00000000000341f8                __data_load_end__ = (__data_load_start__ + SIZEOF (.data))
 
 .igot.plt       0x0000000100000000        0x0
  .igot.plt      0x0000000100000000        0x0 Output/Debug/Obj/MCPDriver/thumb_crt0.o
@@ -15694,16 +15692,16 @@ Linker script and memory map
                 0x0000000000000068                __data_run_size__ = (__data_run_end__ - __data_run_start__)
                 0x0000000020002c8c                __data_run_load_end__ = __data_run_end__
                 0x0000000000000001                . = ASSERT (((__data_run_start__ == __data_run_end__) || ((__data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .data_run is too large to fit in RAM1 memory segment)
-                0x0000000000034248                __tdata_load_start__ = ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4)
+                0x00000000000341f8                __tdata_load_start__ = ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4)
 
-.tdata          0x0000000020002c8c        0x0 load address 0x0000000000034248
+.tdata          0x0000000020002c8c        0x0 load address 0x00000000000341f8
                 0x0000000020002c8c                __tdata_start__ = .
  *(.tdata .tdata.*)
                 0x0000000020002c8c                __tdata_end__ = (__tdata_start__ + SIZEOF (.tdata))
                 0x0000000000000000                __tdata_size__ = SIZEOF (.tdata)
-                0x0000000000034248                __tdata_load_end__ = (__tdata_load_start__ + SIZEOF (.tdata))
-                0x0000000000034248                __FLASH_segment_used_end__ = (ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4) + SIZEOF (.tdata))
-                0x0000000000034248                __FLASH_segment_used_size__ = (__FLASH_segment_used_end__ - __FLASH_segment_start__)
+                0x00000000000341f8                __tdata_load_end__ = (__tdata_load_start__ + SIZEOF (.tdata))
+                0x00000000000341f8                __FLASH_segment_used_end__ = (ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4) + SIZEOF (.tdata))
+                0x00000000000341f8                __FLASH_segment_used_size__ = (__FLASH_segment_used_end__ - __FLASH_segment_start__)
                 0x0000000000000001                . = ASSERT (((__tdata_load_start__ == __tdata_load_end__) || ((__tdata_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .tdata is too large to fit in FLASH memory segment)
 
 .tdata_run      0x0000000020002c8c        0x0
@@ -16164,7 +16162,7 @@ LOAD linker stubs
  .comment       0x000000000000003f       0x40 Output/Debug/Obj/MCPDriver/nrf_strerror.o
  .comment       0x000000000000003f       0x40 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.68/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
 
-.debug_line     0x0000000000000000    0x2ae1e
+.debug_line     0x0000000000000000    0x2adee
  .debug_line    0x0000000000000000      0x21e Output/Debug/Obj/MCPDriver/thumb_crt0.o
  .debug_line    0x000000000000021e      0xf83 Output/Debug/Obj/MCPDriver/bsp.o
  .debug_line    0x00000000000011a1     0x12f9 Output/Debug/Obj/MCPDriver/bsp_btn_ble.o
@@ -16184,42 +16182,42 @@ LOAD linker stubs
  .debug_line    0x000000000000f69e      0x9e7 Output/Debug/Obj/MCPDriver/nrf_log_default_backends.o
  .debug_line    0x0000000000010085     0x143c Output/Debug/Obj/MCPDriver/nrf_log_frontend.o
  .debug_line    0x00000000000114c1      0xb93 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
- .debug_line    0x0000000000012054     0x11e2 Output/Debug/Obj/MCPDriver/main.o
- .debug_line    0x0000000000013236      0xf28 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
- .debug_line    0x000000000001415e      0x7d8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
- .debug_line    0x0000000000014936       0xc5 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
- .debug_line    0x00000000000149fb       0xe4 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
- .debug_line    0x0000000000014adf     0x3693 Output/Debug/Obj/MCPDriver/system_nrf52840.o
- .debug_line    0x0000000000018172     0x180a Output/Debug/Obj/MCPDriver/mcp_can.o
- .debug_line    0x000000000001997c      0xdfb Output/Debug/Obj/MCPDriver/nrf_sdh.o
- .debug_line    0x000000000001a777      0xe04 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
- .debug_line    0x000000000001b57b      0x969 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
- .debug_line    0x000000000001bee4      0xf26 Output/Debug/Obj/MCPDriver/app_button.o
- .debug_line    0x000000000001ce0a      0x364 Output/Debug/Obj/MCPDriver/app_error.o
- .debug_line    0x000000000001d16e      0x3b0 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
- .debug_line    0x000000000001d51e      0xac9 Output/Debug/Obj/MCPDriver/app_error_weak.o
- .debug_line    0x000000000001dfe7     0x101e Output/Debug/Obj/MCPDriver/app_timer2.o
- .debug_line    0x000000000001f005      0x95c Output/Debug/Obj/MCPDriver/app_util_platform.o
- .debug_line    0x000000000001f961     0x112d Output/Debug/Obj/MCPDriver/drv_rtc.o
- .debug_line    0x0000000000020a8e     0x1d6f Output/Debug/Obj/MCPDriver/fds.o
- .debug_line    0x00000000000227fd      0x73e Output/Debug/Obj/MCPDriver/mem_manager.o
- .debug_line    0x0000000000022f3b      0x2e1 Output/Debug/Obj/MCPDriver/nrf_assert.o
- .debug_line    0x000000000002321c      0x6b2 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
- .debug_line    0x00000000000238ce      0x5ec Output/Debug/Obj/MCPDriver/nrf_atomic.o
- .debug_line    0x0000000000023eba      0xa95 Output/Debug/Obj/MCPDriver/nrf_balloc.o
- .debug_line    0x000000000002494f      0x445 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
- .debug_line    0x0000000000024d94      0x73e Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
- .debug_line    0x00000000000254d2      0x778 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
- .debug_line    0x0000000000025c4a      0xd75 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
- .debug_line    0x00000000000269bf      0xac3 Output/Debug/Obj/MCPDriver/nrf_memobj.o
- .debug_line    0x0000000000027482     0x1002 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
- .debug_line    0x0000000000028484      0xf15 Output/Debug/Obj/MCPDriver/nrf_queue.o
- .debug_line    0x0000000000029399      0xc44 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
- .debug_line    0x0000000000029fdd      0x462 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
- .debug_line    0x000000000002a43f      0x5da Output/Debug/Obj/MCPDriver/nrf_sortlist.o
- .debug_line    0x000000000002aa19      0x405 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+ .debug_line    0x0000000000012054     0x11b2 Output/Debug/Obj/MCPDriver/main.o
+ .debug_line    0x0000000000013206      0xf28 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+ .debug_line    0x000000000001412e      0x7d8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
+ .debug_line    0x0000000000014906       0xc5 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
+ .debug_line    0x00000000000149cb       0xe4 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
+ .debug_line    0x0000000000014aaf     0x3693 Output/Debug/Obj/MCPDriver/system_nrf52840.o
+ .debug_line    0x0000000000018142     0x180a Output/Debug/Obj/MCPDriver/mcp_can.o
+ .debug_line    0x000000000001994c      0xdfb Output/Debug/Obj/MCPDriver/nrf_sdh.o
+ .debug_line    0x000000000001a747      0xe04 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+ .debug_line    0x000000000001b54b      0x969 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+ .debug_line    0x000000000001beb4      0xf26 Output/Debug/Obj/MCPDriver/app_button.o
+ .debug_line    0x000000000001cdda      0x364 Output/Debug/Obj/MCPDriver/app_error.o
+ .debug_line    0x000000000001d13e      0x3b0 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
+ .debug_line    0x000000000001d4ee      0xac9 Output/Debug/Obj/MCPDriver/app_error_weak.o
+ .debug_line    0x000000000001dfb7     0x101e Output/Debug/Obj/MCPDriver/app_timer2.o
+ .debug_line    0x000000000001efd5      0x95c Output/Debug/Obj/MCPDriver/app_util_platform.o
+ .debug_line    0x000000000001f931     0x112d Output/Debug/Obj/MCPDriver/drv_rtc.o
+ .debug_line    0x0000000000020a5e     0x1d6f Output/Debug/Obj/MCPDriver/fds.o
+ .debug_line    0x00000000000227cd      0x73e Output/Debug/Obj/MCPDriver/mem_manager.o
+ .debug_line    0x0000000000022f0b      0x2e1 Output/Debug/Obj/MCPDriver/nrf_assert.o
+ .debug_line    0x00000000000231ec      0x6b2 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
+ .debug_line    0x000000000002389e      0x5ec Output/Debug/Obj/MCPDriver/nrf_atomic.o
+ .debug_line    0x0000000000023e8a      0xa95 Output/Debug/Obj/MCPDriver/nrf_balloc.o
+ .debug_line    0x000000000002491f      0x445 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+ .debug_line    0x0000000000024d64      0x73e Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+ .debug_line    0x00000000000254a2      0x778 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ .debug_line    0x0000000000025c1a      0xd75 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
+ .debug_line    0x000000000002698f      0xac3 Output/Debug/Obj/MCPDriver/nrf_memobj.o
+ .debug_line    0x0000000000027452     0x1002 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+ .debug_line    0x0000000000028454      0xf15 Output/Debug/Obj/MCPDriver/nrf_queue.o
+ .debug_line    0x0000000000029369      0xc44 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
+ .debug_line    0x0000000000029fad      0x462 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+ .debug_line    0x000000000002a40f      0x5da Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+ .debug_line    0x000000000002a9e9      0x405 Output/Debug/Obj/MCPDriver/nrf_strerror.o
 
-.debug_info     0x0000000000000000    0x50341
+.debug_info     0x0000000000000000    0x50302
  .debug_info    0x0000000000000000       0x22 Output/Debug/Obj/MCPDriver/thumb_crt0.o
  .debug_info    0x0000000000000022     0x190a Output/Debug/Obj/MCPDriver/bsp.o
  .debug_info    0x000000000000192c     0x544e Output/Debug/Obj/MCPDriver/bsp_btn_ble.o
@@ -16239,40 +16237,40 @@ LOAD linker stubs
  .debug_info    0x0000000000020152     0x10f9 Output/Debug/Obj/MCPDriver/nrf_log_default_backends.o
  .debug_info    0x000000000002124b     0x26b7 Output/Debug/Obj/MCPDriver/nrf_log_frontend.o
  .debug_info    0x0000000000023902     0x12f3 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
- .debug_info    0x0000000000024bf5     0x1993 Output/Debug/Obj/MCPDriver/main.o
- .debug_info    0x0000000000026588     0x1c16 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
- .debug_info    0x000000000002819e      0xee2 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
- .debug_info    0x0000000000029080       0x23 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
- .debug_info    0x00000000000290a3       0x23 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
- .debug_info    0x00000000000290c6     0x42d2 Output/Debug/Obj/MCPDriver/system_nrf52840.o
- .debug_info    0x000000000002d398     0x2c8f Output/Debug/Obj/MCPDriver/mcp_can.o
- .debug_info    0x0000000000030027     0x1d54 Output/Debug/Obj/MCPDriver/nrf_sdh.o
- .debug_info    0x0000000000031d7b     0x4e30 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
- .debug_info    0x0000000000036bab     0x122c Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
- .debug_info    0x0000000000037dd7     0x16fd Output/Debug/Obj/MCPDriver/app_button.o
- .debug_info    0x00000000000394d4      0x264 Output/Debug/Obj/MCPDriver/app_error.o
- .debug_info    0x0000000000039738      0x29d Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
- .debug_info    0x00000000000399d5     0x128e Output/Debug/Obj/MCPDriver/app_error_weak.o
- .debug_info    0x000000000003ac63     0x1d16 Output/Debug/Obj/MCPDriver/app_timer2.o
- .debug_info    0x000000000003c979     0x1571 Output/Debug/Obj/MCPDriver/app_util_platform.o
- .debug_info    0x000000000003deea     0x2217 Output/Debug/Obj/MCPDriver/drv_rtc.o
- .debug_info    0x0000000000040101     0x38e5 Output/Debug/Obj/MCPDriver/fds.o
- .debug_info    0x00000000000439e6      0x84f Output/Debug/Obj/MCPDriver/mem_manager.o
- .debug_info    0x0000000000044235      0x10f Output/Debug/Obj/MCPDriver/nrf_assert.o
- .debug_info    0x0000000000044344      0x887 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
- .debug_info    0x0000000000044bcb      0xa2c Output/Debug/Obj/MCPDriver/nrf_atomic.o
- .debug_info    0x00000000000455f7     0x1176 Output/Debug/Obj/MCPDriver/nrf_balloc.o
- .debug_info    0x000000000004676d      0x3c1 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
- .debug_info    0x0000000000046b2e      0x63b Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
- .debug_info    0x0000000000047169      0x9d7 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
- .debug_info    0x0000000000047b40     0x1c4c Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
- .debug_info    0x000000000004978c     0x14fd Output/Debug/Obj/MCPDriver/nrf_memobj.o
- .debug_info    0x000000000004ac89     0x2049 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
- .debug_info    0x000000000004ccd2     0x1786 Output/Debug/Obj/MCPDriver/nrf_queue.o
- .debug_info    0x000000000004e458     0x12f0 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
- .debug_info    0x000000000004f748      0x35b Output/Debug/Obj/MCPDriver/nrf_section_iter.o
- .debug_info    0x000000000004faa3      0x51c Output/Debug/Obj/MCPDriver/nrf_sortlist.o
- .debug_info    0x000000000004ffbf      0x382 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+ .debug_info    0x0000000000024bf5     0x1954 Output/Debug/Obj/MCPDriver/main.o
+ .debug_info    0x0000000000026549     0x1c16 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+ .debug_info    0x000000000002815f      0xee2 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
+ .debug_info    0x0000000000029041       0x23 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
+ .debug_info    0x0000000000029064       0x23 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
+ .debug_info    0x0000000000029087     0x42d2 Output/Debug/Obj/MCPDriver/system_nrf52840.o
+ .debug_info    0x000000000002d359     0x2c8f Output/Debug/Obj/MCPDriver/mcp_can.o
+ .debug_info    0x000000000002ffe8     0x1d54 Output/Debug/Obj/MCPDriver/nrf_sdh.o
+ .debug_info    0x0000000000031d3c     0x4e30 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+ .debug_info    0x0000000000036b6c     0x122c Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+ .debug_info    0x0000000000037d98     0x16fd Output/Debug/Obj/MCPDriver/app_button.o
+ .debug_info    0x0000000000039495      0x264 Output/Debug/Obj/MCPDriver/app_error.o
+ .debug_info    0x00000000000396f9      0x29d Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
+ .debug_info    0x0000000000039996     0x128e Output/Debug/Obj/MCPDriver/app_error_weak.o
+ .debug_info    0x000000000003ac24     0x1d16 Output/Debug/Obj/MCPDriver/app_timer2.o
+ .debug_info    0x000000000003c93a     0x1571 Output/Debug/Obj/MCPDriver/app_util_platform.o
+ .debug_info    0x000000000003deab     0x2217 Output/Debug/Obj/MCPDriver/drv_rtc.o
+ .debug_info    0x00000000000400c2     0x38e5 Output/Debug/Obj/MCPDriver/fds.o
+ .debug_info    0x00000000000439a7      0x84f Output/Debug/Obj/MCPDriver/mem_manager.o
+ .debug_info    0x00000000000441f6      0x10f Output/Debug/Obj/MCPDriver/nrf_assert.o
+ .debug_info    0x0000000000044305      0x887 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
+ .debug_info    0x0000000000044b8c      0xa2c Output/Debug/Obj/MCPDriver/nrf_atomic.o
+ .debug_info    0x00000000000455b8     0x1176 Output/Debug/Obj/MCPDriver/nrf_balloc.o
+ .debug_info    0x000000000004672e      0x3c1 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+ .debug_info    0x0000000000046aef      0x63b Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+ .debug_info    0x000000000004712a      0x9d7 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ .debug_info    0x0000000000047b01     0x1c4c Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
+ .debug_info    0x000000000004974d     0x14fd Output/Debug/Obj/MCPDriver/nrf_memobj.o
+ .debug_info    0x000000000004ac4a     0x2049 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+ .debug_info    0x000000000004cc93     0x1786 Output/Debug/Obj/MCPDriver/nrf_queue.o
+ .debug_info    0x000000000004e419     0x12f0 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
+ .debug_info    0x000000000004f709      0x35b Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+ .debug_info    0x000000000004fa64      0x51c Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+ .debug_info    0x000000000004ff80      0x382 Output/Debug/Obj/MCPDriver/nrf_strerror.o
 
 .debug_abbrev   0x0000000000000000     0x8b3e
  .debug_abbrev  0x0000000000000000       0x12 Output/Debug/Obj/MCPDriver/thumb_crt0.o
@@ -16329,7 +16327,7 @@ LOAD linker stubs
  .debug_abbrev  0x000000000000882e      0x1ae Output/Debug/Obj/MCPDriver/nrf_sortlist.o
  .debug_abbrev  0x00000000000089dc      0x162 Output/Debug/Obj/MCPDriver/nrf_strerror.o
 
-.debug_aranges  0x0000000000000000     0x6a60
+.debug_aranges  0x0000000000000000     0x6a58
  .debug_aranges
                 0x0000000000000000       0x98 Output/Debug/Obj/MCPDriver/thumb_crt0.o
  .debug_aranges
@@ -16369,75 +16367,75 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000002cd8      0x1d0 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
  .debug_aranges
-                0x0000000000002ea8      0x260 Output/Debug/Obj/MCPDriver/main.o
+                0x0000000000002ea8      0x258 Output/Debug/Obj/MCPDriver/main.o
  .debug_aranges
-                0x0000000000003108      0x288 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+                0x0000000000003100      0x288 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
  .debug_aranges
-                0x0000000000003390      0x1b8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
+                0x0000000000003388      0x1b8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
  .debug_aranges
-                0x0000000000003548       0x20 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
+                0x0000000000003540       0x20 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
  .debug_aranges
-                0x0000000000003568       0x20 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
+                0x0000000000003560       0x20 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
  .debug_aranges
-                0x0000000000003588      0xba8 Output/Debug/Obj/MCPDriver/system_nrf52840.o
+                0x0000000000003580      0xba8 Output/Debug/Obj/MCPDriver/system_nrf52840.o
  .debug_aranges
-                0x0000000000004130      0x308 Output/Debug/Obj/MCPDriver/mcp_can.o
+                0x0000000000004128      0x308 Output/Debug/Obj/MCPDriver/mcp_can.o
  .debug_aranges
-                0x0000000000004438      0x278 Output/Debug/Obj/MCPDriver/nrf_sdh.o
+                0x0000000000004430      0x278 Output/Debug/Obj/MCPDriver/nrf_sdh.o
  .debug_aranges
-                0x00000000000046b0      0x2f0 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+                0x00000000000046a8      0x2f0 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
  .debug_aranges
-                0x00000000000049a0      0x1b0 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+                0x0000000000004998      0x1b0 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
  .debug_aranges
-                0x0000000000004b50      0x200 Output/Debug/Obj/MCPDriver/app_button.o
+                0x0000000000004b48      0x200 Output/Debug/Obj/MCPDriver/app_button.o
  .debug_aranges
-                0x0000000000004d50       0x28 Output/Debug/Obj/MCPDriver/app_error.o
+                0x0000000000004d48       0x28 Output/Debug/Obj/MCPDriver/app_error.o
  .debug_aranges
-                0x0000000000004d78       0x28 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
+                0x0000000000004d70       0x28 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
  .debug_aranges
-                0x0000000000004da0      0x1c8 Output/Debug/Obj/MCPDriver/app_error_weak.o
+                0x0000000000004d98      0x1c8 Output/Debug/Obj/MCPDriver/app_error_weak.o
  .debug_aranges
-                0x0000000000004f68      0x260 Output/Debug/Obj/MCPDriver/app_timer2.o
+                0x0000000000004f60      0x260 Output/Debug/Obj/MCPDriver/app_timer2.o
  .debug_aranges
-                0x00000000000051c8      0x1f0 Output/Debug/Obj/MCPDriver/app_util_platform.o
+                0x00000000000051c0      0x1f0 Output/Debug/Obj/MCPDriver/app_util_platform.o
  .debug_aranges
-                0x00000000000053b8      0x2f0 Output/Debug/Obj/MCPDriver/drv_rtc.o
+                0x00000000000053b0      0x2f0 Output/Debug/Obj/MCPDriver/drv_rtc.o
  .debug_aranges
-                0x00000000000056a8      0x410 Output/Debug/Obj/MCPDriver/fds.o
+                0x00000000000056a0      0x410 Output/Debug/Obj/MCPDriver/fds.o
  .debug_aranges
-                0x0000000000005ab8       0x80 Output/Debug/Obj/MCPDriver/mem_manager.o
+                0x0000000000005ab0       0x80 Output/Debug/Obj/MCPDriver/mem_manager.o
  .debug_aranges
-                0x0000000000005b38       0x20 Output/Debug/Obj/MCPDriver/nrf_assert.o
+                0x0000000000005b30       0x20 Output/Debug/Obj/MCPDriver/nrf_assert.o
  .debug_aranges
-                0x0000000000005b58       0x88 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
+                0x0000000000005b50       0x88 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
  .debug_aranges
-                0x0000000000005be0       0xc0 Output/Debug/Obj/MCPDriver/nrf_atomic.o
+                0x0000000000005bd8       0xc0 Output/Debug/Obj/MCPDriver/nrf_atomic.o
  .debug_aranges
-                0x0000000000005ca0      0x1c8 Output/Debug/Obj/MCPDriver/nrf_balloc.o
+                0x0000000000005c98      0x1c8 Output/Debug/Obj/MCPDriver/nrf_balloc.o
  .debug_aranges
-                0x0000000000005e68       0x30 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+                0x0000000000005e60       0x30 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
  .debug_aranges
-                0x0000000000005e98       0x48 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+                0x0000000000005e90       0x48 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
  .debug_aranges
-                0x0000000000005ee0       0x78 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+                0x0000000000005ed8       0x78 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
  .debug_aranges
-                0x0000000000005f58      0x240 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
+                0x0000000000005f50      0x240 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
  .debug_aranges
-                0x0000000000006198      0x1e0 Output/Debug/Obj/MCPDriver/nrf_memobj.o
+                0x0000000000006190      0x1e0 Output/Debug/Obj/MCPDriver/nrf_memobj.o
  .debug_aranges
-                0x0000000000006378      0x230 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+                0x0000000000006370      0x230 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
  .debug_aranges
-                0x00000000000065a8      0x238 Output/Debug/Obj/MCPDriver/nrf_queue.o
+                0x00000000000065a0      0x238 Output/Debug/Obj/MCPDriver/nrf_queue.o
  .debug_aranges
-                0x00000000000067e0      0x1d8 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
+                0x00000000000067d8      0x1d8 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
  .debug_aranges
-                0x00000000000069b8       0x30 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+                0x00000000000069b0       0x30 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
  .debug_aranges
-                0x00000000000069e8       0x48 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+                0x00000000000069e0       0x48 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
  .debug_aranges
-                0x0000000000006a30       0x30 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+                0x0000000000006a28       0x30 Output/Debug/Obj/MCPDriver/nrf_strerror.o
 
-.debug_str      0x0000000000000000    0xb6c1d
+.debug_str      0x0000000000000000    0xb6c07
  .debug_str     0x0000000000000000       0xb9 Output/Debug/Obj/MCPDriver/thumb_crt0.o
  .debug_str     0x00000000000000b9    0x90956 Output/Debug/Obj/MCPDriver/bsp.o
                                       0x92fd1 (size before relaxing)
@@ -16475,76 +16473,76 @@ LOAD linker stubs
                                       0x8d7d5 (size before relaxing)
  .debug_str     0x00000000000a81ff      0x328 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
                                       0x8c5b0 (size before relaxing)
- .debug_str     0x00000000000a8527     0x2f9a Output/Debug/Obj/MCPDriver/main.o
-                                      0x9ada7 (size before relaxing)
- .debug_str     0x00000000000ab4c1      0x619 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+ .debug_str     0x00000000000a8527     0x2f84 Output/Debug/Obj/MCPDriver/main.o
+                                      0x9ad91 (size before relaxing)
+ .debug_str     0x00000000000ab4ab      0x619 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
                                       0x817e4 (size before relaxing)
- .debug_str     0x00000000000abada      0xc82 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
+ .debug_str     0x00000000000abac4      0xc82 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
                                       0x81e44 (size before relaxing)
- .debug_str     0x00000000000ac75c       0x87 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
+ .debug_str     0x00000000000ac746       0x87 Output/Debug/Obj/MCPDriver/ses_startup_nrf52840.o
                                          0xf0 (size before relaxing)
- .debug_str     0x00000000000ac7e3       0x89 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
+ .debug_str     0x00000000000ac7cd       0x89 Output/Debug/Obj/MCPDriver/ses_startup_nrf_common.o
                                          0xf2 (size before relaxing)
- .debug_str     0x00000000000ac86c     0x1c00 Output/Debug/Obj/MCPDriver/system_nrf52840.o
+ .debug_str     0x00000000000ac856     0x1c00 Output/Debug/Obj/MCPDriver/system_nrf52840.o
                                       0x76abc (size before relaxing)
- .debug_str     0x00000000000ae46c      0xbd4 Output/Debug/Obj/MCPDriver/mcp_can.o
+ .debug_str     0x00000000000ae456      0xbd4 Output/Debug/Obj/MCPDriver/mcp_can.o
                                       0x9a874 (size before relaxing)
- .debug_str     0x00000000000af040      0x4d4 Output/Debug/Obj/MCPDriver/nrf_sdh.o
+ .debug_str     0x00000000000af02a      0x4d4 Output/Debug/Obj/MCPDriver/nrf_sdh.o
                                       0x8ce65 (size before relaxing)
- .debug_str     0x00000000000af514      0x3e8 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+ .debug_str     0x00000000000af4fe      0x3e8 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
                                       0x92d38 (size before relaxing)
- .debug_str     0x00000000000af8fc      0x195 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+ .debug_str     0x00000000000af8e6      0x195 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
                                       0x8b9c1 (size before relaxing)
- .debug_str     0x00000000000afa91      0x2aa Output/Debug/Obj/MCPDriver/app_button.o
+ .debug_str     0x00000000000afa7b      0x2aa Output/Debug/Obj/MCPDriver/app_button.o
                                       0x94469 (size before relaxing)
- .debug_str     0x00000000000afd3b      0x140 Output/Debug/Obj/MCPDriver/app_error.o
+ .debug_str     0x00000000000afd25      0x140 Output/Debug/Obj/MCPDriver/app_error.o
                                       0x76426 (size before relaxing)
- .debug_str     0x00000000000afe7b       0xa3 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
+ .debug_str     0x00000000000afe65       0xa3 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
                                       0x8731f (size before relaxing)
- .debug_str     0x00000000000aff1e       0xd0 Output/Debug/Obj/MCPDriver/app_error_weak.o
+ .debug_str     0x00000000000aff08       0xd0 Output/Debug/Obj/MCPDriver/app_error_weak.o
                                       0x8d436 (size before relaxing)
- .debug_str     0x00000000000affee      0xd8a Output/Debug/Obj/MCPDriver/app_timer2.o
+ .debug_str     0x00000000000affd8      0xd8a Output/Debug/Obj/MCPDriver/app_timer2.o
                                       0x940ba (size before relaxing)
- .debug_str     0x00000000000b0d78      0x2d8 Output/Debug/Obj/MCPDriver/app_util_platform.o
+ .debug_str     0x00000000000b0d62      0x2d8 Output/Debug/Obj/MCPDriver/app_util_platform.o
                                       0x7852d (size before relaxing)
- .debug_str     0x00000000000b1050      0x7a9 Output/Debug/Obj/MCPDriver/drv_rtc.o
+ .debug_str     0x00000000000b103a      0x7a9 Output/Debug/Obj/MCPDriver/drv_rtc.o
                                       0x93bdd (size before relaxing)
- .debug_str     0x00000000000b17f9     0x145f Output/Debug/Obj/MCPDriver/fds.o
+ .debug_str     0x00000000000b17e3     0x145f Output/Debug/Obj/MCPDriver/fds.o
                                       0x8b10e (size before relaxing)
- .debug_str     0x00000000000b2c58     0x1108 Output/Debug/Obj/MCPDriver/mem_manager.o
+ .debug_str     0x00000000000b2c42     0x1108 Output/Debug/Obj/MCPDriver/mem_manager.o
                                       0x8a7f2 (size before relaxing)
- .debug_str     0x00000000000b3d60       0x9a Output/Debug/Obj/MCPDriver/nrf_assert.o
+ .debug_str     0x00000000000b3d4a       0x9a Output/Debug/Obj/MCPDriver/nrf_assert.o
                                       0x7643a (size before relaxing)
- .debug_str     0x00000000000b3dfa      0x200 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
+ .debug_str     0x00000000000b3de4      0x200 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
                                       0x89c6b (size before relaxing)
- .debug_str     0x00000000000b3ffa      0x764 Output/Debug/Obj/MCPDriver/nrf_atomic.o
+ .debug_str     0x00000000000b3fe4      0x764 Output/Debug/Obj/MCPDriver/nrf_atomic.o
                                       0x8753e (size before relaxing)
- .debug_str     0x00000000000b475e      0x174 Output/Debug/Obj/MCPDriver/nrf_balloc.o
+ .debug_str     0x00000000000b4748      0x174 Output/Debug/Obj/MCPDriver/nrf_balloc.o
                                       0x8c2ee (size before relaxing)
- .debug_str     0x00000000000b48d2       0xc1 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+ .debug_str     0x00000000000b48bc       0xc1 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
                                       0x870c8 (size before relaxing)
- .debug_str     0x00000000000b4993      0x56e Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+ .debug_str     0x00000000000b497d      0x56e Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
                                       0x875a9 (size before relaxing)
- .debug_str     0x00000000000b4f01      0x22b Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ .debug_str     0x00000000000b4eeb      0x22b Output/Debug/Obj/MCPDriver/nrf_fstorage.o
                                       0x89b02 (size before relaxing)
- .debug_str     0x00000000000b512c      0x2ad Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
+ .debug_str     0x00000000000b5116      0x2ad Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
                                       0x8aa9c (size before relaxing)
- .debug_str     0x00000000000b53d9      0x257 Output/Debug/Obj/MCPDriver/nrf_memobj.o
+ .debug_str     0x00000000000b53c3      0x257 Output/Debug/Obj/MCPDriver/nrf_memobj.o
                                       0x8a620 (size before relaxing)
- .debug_str     0x00000000000b5630      0xec9 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+ .debug_str     0x00000000000b561a      0xec9 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
                                       0x95e72 (size before relaxing)
- .debug_str     0x00000000000b64f9      0x27b Output/Debug/Obj/MCPDriver/nrf_queue.o
+ .debug_str     0x00000000000b64e3      0x27b Output/Debug/Obj/MCPDriver/nrf_queue.o
                                       0x8ce7a (size before relaxing)
- .debug_str     0x00000000000b6774      0x16d Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
+ .debug_str     0x00000000000b675e      0x16d Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
                                       0x88f36 (size before relaxing)
- .debug_str     0x00000000000b68e1       0xcd Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+ .debug_str     0x00000000000b68cb       0xcd Output/Debug/Obj/MCPDriver/nrf_section_iter.o
                                       0x87351 (size before relaxing)
- .debug_str     0x00000000000b69ae      0x135 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+ .debug_str     0x00000000000b6998      0x135 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
                                       0x8994d (size before relaxing)
- .debug_str     0x00000000000b6ae3      0x13a Output/Debug/Obj/MCPDriver/nrf_strerror.o
+ .debug_str     0x00000000000b6acd      0x13a Output/Debug/Obj/MCPDriver/nrf_strerror.o
                                       0x86f03 (size before relaxing)
 
-.debug_ranges   0x0000000000000000     0x67a0
+.debug_ranges   0x0000000000000000     0x6798
  .debug_ranges  0x0000000000000000       0x90 Output/Debug/Obj/MCPDriver/thumb_crt0.o
  .debug_ranges  0x0000000000000090      0x220 Output/Debug/Obj/MCPDriver/bsp.o
  .debug_ranges  0x00000000000002b0      0x460 Output/Debug/Obj/MCPDriver/bsp_btn_ble.o
@@ -16564,40 +16562,40 @@ LOAD linker stubs
  .debug_ranges  0x0000000000002798      0x1a0 Output/Debug/Obj/MCPDriver/nrf_log_default_backends.o
  .debug_ranges  0x0000000000002938      0x2b8 Output/Debug/Obj/MCPDriver/nrf_log_frontend.o
  .debug_ranges  0x0000000000002bf0      0x1c0 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
- .debug_ranges  0x0000000000002db0      0x250 Output/Debug/Obj/MCPDriver/main.o
- .debug_ranges  0x0000000000003000      0x278 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
- .debug_ranges  0x0000000000003278      0x1a8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
- .debug_ranges  0x0000000000003420      0xb98 Output/Debug/Obj/MCPDriver/system_nrf52840.o
- .debug_ranges  0x0000000000003fb8      0x2f8 Output/Debug/Obj/MCPDriver/mcp_can.o
- .debug_ranges  0x00000000000042b0      0x268 Output/Debug/Obj/MCPDriver/nrf_sdh.o
- .debug_ranges  0x0000000000004518      0x2f8 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
- .debug_ranges  0x0000000000004810      0x1b8 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
- .debug_ranges  0x00000000000049c8      0x1f0 Output/Debug/Obj/MCPDriver/app_button.o
- .debug_ranges  0x0000000000004bb8       0x18 Output/Debug/Obj/MCPDriver/app_error.o
- .debug_ranges  0x0000000000004bd0       0x18 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
- .debug_ranges  0x0000000000004be8      0x1b8 Output/Debug/Obj/MCPDriver/app_error_weak.o
- .debug_ranges  0x0000000000004da0      0x280 Output/Debug/Obj/MCPDriver/app_timer2.o
- .debug_ranges  0x0000000000005020      0x1e0 Output/Debug/Obj/MCPDriver/app_util_platform.o
- .debug_ranges  0x0000000000005200      0x2e0 Output/Debug/Obj/MCPDriver/drv_rtc.o
- .debug_ranges  0x00000000000054e0      0x418 Output/Debug/Obj/MCPDriver/fds.o
- .debug_ranges  0x00000000000058f8       0x70 Output/Debug/Obj/MCPDriver/mem_manager.o
- .debug_ranges  0x0000000000005968       0x10 Output/Debug/Obj/MCPDriver/nrf_assert.o
- .debug_ranges  0x0000000000005978       0x78 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
- .debug_ranges  0x00000000000059f0       0xb0 Output/Debug/Obj/MCPDriver/nrf_atomic.o
- .debug_ranges  0x0000000000005aa0      0x1b8 Output/Debug/Obj/MCPDriver/nrf_balloc.o
- .debug_ranges  0x0000000000005c58       0x20 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
- .debug_ranges  0x0000000000005c78       0x38 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
- .debug_ranges  0x0000000000005cb0       0x68 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
- .debug_ranges  0x0000000000005d18      0x230 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
- .debug_ranges  0x0000000000005f48      0x1d0 Output/Debug/Obj/MCPDriver/nrf_memobj.o
- .debug_ranges  0x0000000000006118      0x220 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
- .debug_ranges  0x0000000000006338      0x228 Output/Debug/Obj/MCPDriver/nrf_queue.o
- .debug_ranges  0x0000000000006560      0x1c8 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
- .debug_ranges  0x0000000000006728       0x20 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
- .debug_ranges  0x0000000000006748       0x38 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
- .debug_ranges  0x0000000000006780       0x20 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+ .debug_ranges  0x0000000000002db0      0x248 Output/Debug/Obj/MCPDriver/main.o
+ .debug_ranges  0x0000000000002ff8      0x278 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+ .debug_ranges  0x0000000000003270      0x1a8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
+ .debug_ranges  0x0000000000003418      0xb98 Output/Debug/Obj/MCPDriver/system_nrf52840.o
+ .debug_ranges  0x0000000000003fb0      0x2f8 Output/Debug/Obj/MCPDriver/mcp_can.o
+ .debug_ranges  0x00000000000042a8      0x268 Output/Debug/Obj/MCPDriver/nrf_sdh.o
+ .debug_ranges  0x0000000000004510      0x2f8 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+ .debug_ranges  0x0000000000004808      0x1b8 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+ .debug_ranges  0x00000000000049c0      0x1f0 Output/Debug/Obj/MCPDriver/app_button.o
+ .debug_ranges  0x0000000000004bb0       0x18 Output/Debug/Obj/MCPDriver/app_error.o
+ .debug_ranges  0x0000000000004bc8       0x18 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
+ .debug_ranges  0x0000000000004be0      0x1b8 Output/Debug/Obj/MCPDriver/app_error_weak.o
+ .debug_ranges  0x0000000000004d98      0x280 Output/Debug/Obj/MCPDriver/app_timer2.o
+ .debug_ranges  0x0000000000005018      0x1e0 Output/Debug/Obj/MCPDriver/app_util_platform.o
+ .debug_ranges  0x00000000000051f8      0x2e0 Output/Debug/Obj/MCPDriver/drv_rtc.o
+ .debug_ranges  0x00000000000054d8      0x418 Output/Debug/Obj/MCPDriver/fds.o
+ .debug_ranges  0x00000000000058f0       0x70 Output/Debug/Obj/MCPDriver/mem_manager.o
+ .debug_ranges  0x0000000000005960       0x10 Output/Debug/Obj/MCPDriver/nrf_assert.o
+ .debug_ranges  0x0000000000005970       0x78 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
+ .debug_ranges  0x00000000000059e8       0xb0 Output/Debug/Obj/MCPDriver/nrf_atomic.o
+ .debug_ranges  0x0000000000005a98      0x1b8 Output/Debug/Obj/MCPDriver/nrf_balloc.o
+ .debug_ranges  0x0000000000005c50       0x20 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+ .debug_ranges  0x0000000000005c70       0x38 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+ .debug_ranges  0x0000000000005ca8       0x68 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ .debug_ranges  0x0000000000005d10      0x230 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
+ .debug_ranges  0x0000000000005f40      0x1d0 Output/Debug/Obj/MCPDriver/nrf_memobj.o
+ .debug_ranges  0x0000000000006110      0x220 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+ .debug_ranges  0x0000000000006330      0x228 Output/Debug/Obj/MCPDriver/nrf_queue.o
+ .debug_ranges  0x0000000000006558      0x1c8 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
+ .debug_ranges  0x0000000000006720       0x20 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+ .debug_ranges  0x0000000000006740       0x38 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+ .debug_ranges  0x0000000000006778       0x20 Output/Debug/Obj/MCPDriver/nrf_strerror.o
 
-.debug_frame    0x0000000000000000    0x11c74
+.debug_frame    0x0000000000000000    0x11c4c
  .debug_frame   0x0000000000000000      0x5d8 Output/Debug/Obj/MCPDriver/bsp.o
  .debug_frame   0x00000000000005d8      0x950 Output/Debug/Obj/MCPDriver/bsp_btn_ble.o
  .debug_frame   0x0000000000000f28      0x684 Output/Debug/Obj/MCPDriver/nrf_drv_clock.o
@@ -16616,41 +16614,41 @@ LOAD linker stubs
  .debug_frame   0x0000000000006cfc      0x368 Output/Debug/Obj/MCPDriver/nrf_log_default_backends.o
  .debug_frame   0x0000000000007064      0x868 Output/Debug/Obj/MCPDriver/nrf_log_frontend.o
  .debug_frame   0x00000000000078cc      0x408 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
- .debug_frame   0x0000000000007cd4      0x648 Output/Debug/Obj/MCPDriver/main.o
- .debug_frame   0x000000000000831c      0x794 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
- .debug_frame   0x0000000000008ab0      0x3c8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
- .debug_frame   0x0000000000008e78     0x1d5c Output/Debug/Obj/MCPDriver/system_nrf52840.o
- .debug_frame   0x000000000000abd4      0x9f8 Output/Debug/Obj/MCPDriver/mcp_can.o
- .debug_frame   0x000000000000b5cc      0x674 Output/Debug/Obj/MCPDriver/nrf_sdh.o
- .debug_frame   0x000000000000bc40      0x648 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
- .debug_frame   0x000000000000c288      0x370 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
- .debug_frame   0x000000000000c5f8      0x500 Output/Debug/Obj/MCPDriver/app_button.o
- .debug_frame   0x000000000000caf8       0x58 Output/Debug/Obj/MCPDriver/app_error.o
- .debug_frame   0x000000000000cb50       0x30 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
- .debug_frame   0x000000000000cb80      0x38c Output/Debug/Obj/MCPDriver/app_error_weak.o
- .debug_frame   0x000000000000cf0c      0x6a4 Output/Debug/Obj/MCPDriver/app_timer2.o
- .debug_frame   0x000000000000d5b0      0x468 Output/Debug/Obj/MCPDriver/app_util_platform.o
- .debug_frame   0x000000000000da18      0x92c Output/Debug/Obj/MCPDriver/drv_rtc.o
- .debug_frame   0x000000000000e344      0xe5c Output/Debug/Obj/MCPDriver/fds.o
- .debug_frame   0x000000000000f1a0      0x1e8 Output/Debug/Obj/MCPDriver/mem_manager.o
- .debug_frame   0x000000000000f388       0x38 Output/Debug/Obj/MCPDriver/nrf_assert.o
- .debug_frame   0x000000000000f3c0      0x1f8 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
- .debug_frame   0x000000000000f5b8      0x3c0 Output/Debug/Obj/MCPDriver/nrf_atomic.o
- .debug_frame   0x000000000000f978      0x3ec Output/Debug/Obj/MCPDriver/nrf_balloc.o
- .debug_frame   0x000000000000fd64       0x90 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
- .debug_frame   0x000000000000fdf4       0xe8 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
- .debug_frame   0x000000000000fedc      0x1cc Output/Debug/Obj/MCPDriver/nrf_fstorage.o
- .debug_frame   0x00000000000100a8      0x5ec Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
- .debug_frame   0x0000000000010694      0x460 Output/Debug/Obj/MCPDriver/nrf_memobj.o
- .debug_frame   0x0000000000010af4      0x570 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
- .debug_frame   0x0000000000011064      0x620 Output/Debug/Obj/MCPDriver/nrf_queue.o
- .debug_frame   0x0000000000011684      0x430 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
- .debug_frame   0x0000000000011ab4       0x70 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
- .debug_frame   0x0000000000011b24       0xe8 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
- .debug_frame   0x0000000000011c0c       0x68 Output/Debug/Obj/MCPDriver/nrf_strerror.o
+ .debug_frame   0x0000000000007cd4      0x620 Output/Debug/Obj/MCPDriver/main.o
+ .debug_frame   0x00000000000082f4      0x794 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+ .debug_frame   0x0000000000008a88      0x3c8 Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
+ .debug_frame   0x0000000000008e50     0x1d5c Output/Debug/Obj/MCPDriver/system_nrf52840.o
+ .debug_frame   0x000000000000abac      0x9f8 Output/Debug/Obj/MCPDriver/mcp_can.o
+ .debug_frame   0x000000000000b5a4      0x674 Output/Debug/Obj/MCPDriver/nrf_sdh.o
+ .debug_frame   0x000000000000bc18      0x648 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+ .debug_frame   0x000000000000c260      0x370 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+ .debug_frame   0x000000000000c5d0      0x500 Output/Debug/Obj/MCPDriver/app_button.o
+ .debug_frame   0x000000000000cad0       0x58 Output/Debug/Obj/MCPDriver/app_error.o
+ .debug_frame   0x000000000000cb28       0x30 Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
+ .debug_frame   0x000000000000cb58      0x38c Output/Debug/Obj/MCPDriver/app_error_weak.o
+ .debug_frame   0x000000000000cee4      0x6a4 Output/Debug/Obj/MCPDriver/app_timer2.o
+ .debug_frame   0x000000000000d588      0x468 Output/Debug/Obj/MCPDriver/app_util_platform.o
+ .debug_frame   0x000000000000d9f0      0x92c Output/Debug/Obj/MCPDriver/drv_rtc.o
+ .debug_frame   0x000000000000e31c      0xe5c Output/Debug/Obj/MCPDriver/fds.o
+ .debug_frame   0x000000000000f178      0x1e8 Output/Debug/Obj/MCPDriver/mem_manager.o
+ .debug_frame   0x000000000000f360       0x38 Output/Debug/Obj/MCPDriver/nrf_assert.o
+ .debug_frame   0x000000000000f398      0x1f8 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
+ .debug_frame   0x000000000000f590      0x3c0 Output/Debug/Obj/MCPDriver/nrf_atomic.o
+ .debug_frame   0x000000000000f950      0x3ec Output/Debug/Obj/MCPDriver/nrf_balloc.o
+ .debug_frame   0x000000000000fd3c       0x90 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+ .debug_frame   0x000000000000fdcc       0xe8 Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+ .debug_frame   0x000000000000feb4      0x1cc Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+ .debug_frame   0x0000000000010080      0x5ec Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
+ .debug_frame   0x000000000001066c      0x460 Output/Debug/Obj/MCPDriver/nrf_memobj.o
+ .debug_frame   0x0000000000010acc      0x570 Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+ .debug_frame   0x000000000001103c      0x620 Output/Debug/Obj/MCPDriver/nrf_queue.o
+ .debug_frame   0x000000000001165c      0x430 Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
+ .debug_frame   0x0000000000011a8c       0x70 Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+ .debug_frame   0x0000000000011afc       0xe8 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+ .debug_frame   0x0000000000011be4       0x68 Output/Debug/Obj/MCPDriver/nrf_strerror.o
 
 .debug_pubnames
-                0x0000000000000000    0x29f67
+                0x0000000000000000    0x29f4d
  .debug_pubnames
                 0x0000000000000000     0x12fb Output/Debug/Obj/MCPDriver/bsp.o
  .debug_pubnames
@@ -16688,69 +16686,69 @@ LOAD linker stubs
  .debug_pubnames
                 0x00000000000134b1      0xc20 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o
  .debug_pubnames
-                0x00000000000140d1     0x11e1 Output/Debug/Obj/MCPDriver/main.o
+                0x00000000000140d1     0x11c7 Output/Debug/Obj/MCPDriver/main.o
  .debug_pubnames
-                0x00000000000152b2      0xe00 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
+                0x0000000000015298      0xe00 Output/Debug/Obj/MCPDriver/SEGGER_RTT.o
  .debug_pubnames
-                0x00000000000160b2      0xa7f Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
+                0x0000000000016098      0xa7f Output/Debug/Obj/MCPDriver/SEGGER_RTT_Syscalls_SES.o
  .debug_pubnames
-                0x0000000000016b31     0x1d77 Output/Debug/Obj/MCPDriver/system_nrf52840.o
+                0x0000000000016b17     0x1d77 Output/Debug/Obj/MCPDriver/system_nrf52840.o
  .debug_pubnames
-                0x00000000000188a8     0x143d Output/Debug/Obj/MCPDriver/mcp_can.o
+                0x000000000001888e     0x143d Output/Debug/Obj/MCPDriver/mcp_can.o
  .debug_pubnames
-                0x0000000000019ce5     0x13ef Output/Debug/Obj/MCPDriver/nrf_sdh.o
+                0x0000000000019ccb     0x13ef Output/Debug/Obj/MCPDriver/nrf_sdh.o
  .debug_pubnames
-                0x000000000001b0d4     0x1694 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
+                0x000000000001b0ba     0x1694 Output/Debug/Obj/MCPDriver/nrf_sdh_ble.o
  .debug_pubnames
-                0x000000000001c768      0xba9 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
+                0x000000000001c74e      0xba9 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o
  .debug_pubnames
-                0x000000000001d311      0xe5d Output/Debug/Obj/MCPDriver/app_button.o
+                0x000000000001d2f7      0xe5d Output/Debug/Obj/MCPDriver/app_button.o
  .debug_pubnames
-                0x000000000001e16e       0x6c Output/Debug/Obj/MCPDriver/app_error.o
+                0x000000000001e154       0x6c Output/Debug/Obj/MCPDriver/app_error.o
  .debug_pubnames
-                0x000000000001e1da       0x4e Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
+                0x000000000001e1c0       0x4e Output/Debug/Obj/MCPDriver/app_error_handler_gcc.o
  .debug_pubnames
-                0x000000000001e228      0xc49 Output/Debug/Obj/MCPDriver/app_error_weak.o
+                0x000000000001e20e      0xc49 Output/Debug/Obj/MCPDriver/app_error_weak.o
  .debug_pubnames
-                0x000000000001ee71     0x12a2 Output/Debug/Obj/MCPDriver/app_timer2.o
+                0x000000000001ee57     0x12a2 Output/Debug/Obj/MCPDriver/app_timer2.o
  .debug_pubnames
-                0x0000000000020113     0x10b6 Output/Debug/Obj/MCPDriver/app_util_platform.o
+                0x00000000000200f9     0x10b6 Output/Debug/Obj/MCPDriver/app_util_platform.o
  .debug_pubnames
-                0x00000000000211c9     0x1174 Output/Debug/Obj/MCPDriver/drv_rtc.o
+                0x00000000000211af     0x1174 Output/Debug/Obj/MCPDriver/drv_rtc.o
  .debug_pubnames
-                0x000000000002233d     0x17d3 Output/Debug/Obj/MCPDriver/fds.o
+                0x0000000000022323     0x17d3 Output/Debug/Obj/MCPDriver/fds.o
  .debug_pubnames
-                0x0000000000023b10      0x271 Output/Debug/Obj/MCPDriver/mem_manager.o
+                0x0000000000023af6      0x271 Output/Debug/Obj/MCPDriver/mem_manager.o
  .debug_pubnames
-                0x0000000000023d81       0x2a Output/Debug/Obj/MCPDriver/nrf_assert.o
+                0x0000000000023d67       0x2a Output/Debug/Obj/MCPDriver/nrf_assert.o
  .debug_pubnames
-                0x0000000000023dab      0x221 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
+                0x0000000000023d91      0x221 Output/Debug/Obj/MCPDriver/nrf_atfifo.o
  .debug_pubnames
-                0x0000000000023fcc      0x259 Output/Debug/Obj/MCPDriver/nrf_atomic.o
+                0x0000000000023fb2      0x259 Output/Debug/Obj/MCPDriver/nrf_atomic.o
  .debug_pubnames
-                0x0000000000024225      0xb89 Output/Debug/Obj/MCPDriver/nrf_balloc.o
+                0x000000000002420b      0xb89 Output/Debug/Obj/MCPDriver/nrf_balloc.o
  .debug_pubnames
-                0x0000000000024dae       0x65 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
+                0x0000000000024d94       0x65 Output/Debug/Obj/MCPDriver/nrf_fprintf.o
  .debug_pubnames
-                0x0000000000024e13       0x8d Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
+                0x0000000000024df9       0x8d Output/Debug/Obj/MCPDriver/nrf_fprintf_format.o
  .debug_pubnames
-                0x0000000000024ea0      0x208 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
+                0x0000000000024e86      0x208 Output/Debug/Obj/MCPDriver/nrf_fstorage.o
  .debug_pubnames
-                0x00000000000250a8      0xfd7 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
+                0x000000000002508e      0xfd7 Output/Debug/Obj/MCPDriver/nrf_fstorage_sd.o
  .debug_pubnames
-                0x000000000002607f      0xb14 Output/Debug/Obj/MCPDriver/nrf_memobj.o
+                0x0000000000026065      0xb14 Output/Debug/Obj/MCPDriver/nrf_memobj.o
  .debug_pubnames
-                0x0000000000026b93     0x194a Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
+                0x0000000000026b79     0x194a Output/Debug/Obj/MCPDriver/nrf_pwr_mgmt.o
  .debug_pubnames
-                0x00000000000284dd      0xd13 Output/Debug/Obj/MCPDriver/nrf_queue.o
+                0x00000000000284c3      0xd13 Output/Debug/Obj/MCPDriver/nrf_queue.o
  .debug_pubnames
-                0x00000000000291f0      0xb0d Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
+                0x00000000000291d6      0xb0d Output/Debug/Obj/MCPDriver/nrf_ringbuf.o
  .debug_pubnames
-                0x0000000000029cfd       0x6c Output/Debug/Obj/MCPDriver/nrf_section_iter.o
+                0x0000000000029ce3       0x6c Output/Debug/Obj/MCPDriver/nrf_section_iter.o
  .debug_pubnames
-                0x0000000000029d69      0x172 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
+                0x0000000000029d4f      0x172 Output/Debug/Obj/MCPDriver/nrf_sortlist.o
  .debug_pubnames
-                0x0000000000029edb       0x8c Output/Debug/Obj/MCPDriver/nrf_strerror.o
+                0x0000000000029ec1       0x8c Output/Debug/Obj/MCPDriver/nrf_strerror.o
 
 .debug_pubtypes
                 0x0000000000000000     0xde57
