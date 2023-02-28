@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/main.o: \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\main.c \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\main.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/__crossworks.h \
@@ -38,13 +38,6 @@ Output/Debug/Obj/MCPDriver/main.o: \
  SDK/modules/nrfx/mdk/compiler_abstraction.h \
  SDK/components/softdevice/s140/headers/nrf52/nrf_mbr.h \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
- SDK/components/softdevice/common/nrf_sdh_soc.h \
- SDK/components/libraries/util/sdk_common.h \
- SDK/components/libraries/util/sdk_os.h \
- SDK/components/libraries/util/app_util.h \
- SDK/components/libraries/util/sdk_macros.h \
- SDK/components/libraries/util/nrf_assert.h \
- SDK/components/softdevice/s140/headers/nrf_soc.h \
  SDK/components/libraries/timer/app_timer.h \
  SDK/components/libraries/log/nrf_log_instance.h \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \
@@ -52,10 +45,16 @@ Output/Debug/Obj/MCPDriver/main.o: \
  SDK/components/libraries/sortlist/nrf_sortlist.h \
  SDK/components/libraries/fds/fds.h \
  SDK/components/libraries/util/app_util_platform.h \
+ SDK/components/softdevice/s140/headers/nrf_soc.h \
  SDK/components/softdevice/s140/headers/nrf_nvic.h \
+ SDK/components/libraries/util/nrf_assert.h \
  SDK/components/libraries/util/app_error.h \
  SDK/components/libraries/pwr_mgmt/nrf_pwr_mgmt.h \
  SDK/components/libraries/log/nrf_log.h \
+ SDK/components/libraries/util/sdk_common.h \
+ SDK/components/libraries/util/sdk_os.h \
+ SDK/components/libraries/util/app_util.h \
+ SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/strerror/nrf_strerror.h \
  SDK/components/libraries/log/src/nrf_log_internal.h \
  SDK/components/libraries/log/nrf_log_types.h \

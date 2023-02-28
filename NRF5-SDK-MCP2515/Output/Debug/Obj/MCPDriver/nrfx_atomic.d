@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/nrfx_atomic.o: \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\soc\nrfx_atomic.c \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\soc\nrfx_atomic.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\soc\nrfx_atomic.c \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\soc\nrfx_atomic.h \
  SDK/modules/nrfx/nrfx.h SDK/integration/nrfx/nrfx_config.h \
  config/sdk_config.h SDK/modules/nrfx/drivers/nrfx_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
@@ -49,4 +49,4 @@ Output/Debug/Obj/MCPDriver/nrfx_atomic.o: \
  SDK/components/softdevice/s140/headers/nrf_sd_def.h \
  SDK/components/softdevice/s140/headers/nrf_soc.h \
  SDK/modules/nrfx/drivers/nrfx_errors.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\soc\nrfx_atomic_internal.h
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\soc\nrfx_atomic_internal.h

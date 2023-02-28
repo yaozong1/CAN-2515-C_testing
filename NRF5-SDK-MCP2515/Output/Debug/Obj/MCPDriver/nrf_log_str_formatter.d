@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o: \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_str_formatter.c \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_str_formatter.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -50,7 +50,7 @@ Output/Debug/Obj/MCPDriver/nrf_log_str_formatter.o: \
  SDK/components/libraries/log/nrf_log_instance.h \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \
  SDK/components/libraries/util/nordic_common.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_internal.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_internal.h \
  SDK/components/libraries/log/nrf_log_types.h \
  SDK/components/libraries/log/nrf_log_ctrl.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/ctype.h \

@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrf_atfifo.o: \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\atomic_fifo\nrf_atfifo.c \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\atomic_fifo\nrf_atfifo.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/__crossworks.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
@@ -21,7 +21,7 @@ Output/Debug/Obj/MCPDriver/nrf_atfifo.o: \
  SDK/modules/nrfx/mdk/compiler_abstraction.h \
  SDK/components/softdevice/s140/headers/nrf52/nrf_mbr.h \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\atomic_fifo\nrf_atfifo.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\atomic_fifo\nrf_atfifo.h \
  config/sdk_config.h SDK/components/libraries/util/nordic_common.h \
  SDK/components/libraries/util/nrf_assert.h \
  SDK/components/libraries/util/sdk_errors.h \
@@ -29,7 +29,7 @@ Output/Debug/Obj/MCPDriver/nrf_atfifo.o: \
  SDK/components/libraries/log/nrf_log_instance.h \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \
  SDK/components/libraries/log/nrf_log_types.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\atomic_fifo\nrf_atfifo_internal.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\atomic_fifo\nrf_atfifo_internal.h \
  SDK/components/libraries/log/nrf_log.h \
  SDK/components/libraries/util/sdk_common.h \
  SDK/components/libraries/util/sdk_os.h \

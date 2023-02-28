@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrf_balloc.o: \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\balloc\nrf_balloc.c \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\balloc\nrf_balloc.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -29,7 +29,7 @@ Output/Debug/Obj/MCPDriver/nrf_balloc.o: \
  SDK/components/libraries/util/nrf_assert.h \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \
  SDK/components/libraries/util/nordic_common.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\balloc\nrf_balloc.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\balloc\nrf_balloc.h \
  SDK/components/libraries/util/sdk_errors.h \
  SDK/components/libraries/util/app_util_platform.h \
  SDK/components/softdevice/s140/headers/nrf_soc.h \

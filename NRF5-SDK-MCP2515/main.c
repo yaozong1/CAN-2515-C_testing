@@ -5,7 +5,7 @@
 #include "nrf_sdm.h"
 #include "app_error.h"
 #include "nrf_sdh.h"
-#include "nrf_sdh_soc.h"
+//#include "nrf_sdh_soc.h"
 #include "app_timer.h"
 //#include "bsp_btn_ble.h"
 #include "fds.h"
@@ -238,7 +238,7 @@ int main(void)
     nrf_delay_ms(10);
  //   printf("enable CAN power\r\n");
   //  buttons_leds_init();//important
-    bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_event_handler);
+  //  bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_event_handler);
     // Initialize.
     log_init();
     nrf_mem_init();
@@ -255,37 +255,7 @@ int main(void)
     // Start execution.
     NRF_LOG_DEBUG("CAN started.");
     
- /*
-    uint8_t tmp_buffer0[4] = {0x11, 0x22, 0x33, 0x44};
-    uint8_t tmp_buffer1[3] = {0x55, 0x66, 0x77};
-    uint8_t tmp_buffer2[8] = {0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88};
 
-    uint8_t tx_buf_index = 0;
-
-    if (tx_buf_index == 0)
-        {
-            mcp2515_write_canMsg(MCP_TXB0SIDH, 0x300, 0, 0, sizeof(tmp_buffer0), (uint8_t*)&tmp_buffer0);
-            tx_buf_index = 1;
-            NRF_LOG_INFO("BUF0");
-            nrf_delay_ms(5);
-        }
-        else if (tx_buf_index == 1)
-        {
-            mcp2515_write_canMsg(MCP_TXB1SIDH, 0x301, 0, 0, sizeof(tmp_buffer1), (uint8_t*)&tmp_buffer1);
-            tx_buf_index = 2;
-            NRF_LOG_INFO("BUF1");
-            nrf_delay_ms(5);
-        }
-        else if (tx_buf_index == 2)
-        {
-            mcp2515_write_canMsg(MCP_TXB2SIDH, 0x302, 0, 0, sizeof(tmp_buffer2), (uint8_t*)&tmp_buffer2);
-            tx_buf_index = 0;
-            NRF_LOG_INFO("BUF2");
-            nrf_delay_ms(5);
-        }
-*/
-
-    // Enter main loop.
     for (;;)
     {
     //for send can

@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/bsp_btn_ble.o: \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp_btn_ble.c \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp_btn_ble.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp_btn_ble.c \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp_btn_ble.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  SDK/components/softdevice/s140/headers/ble.h \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
@@ -25,7 +25,7 @@ Output/Debug/Obj/MCPDriver/bsp_btn_ble.o: \
  SDK/modules/nrfx/mdk/nrf52_to_nrf52840.h \
  SDK/modules/nrfx/mdk/compiler_abstraction.h \
  SDK/components/softdevice/s140/headers/ble_gatts.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
  SDK/components/boards/boards.h SDK/modules/nrfx/hal/nrf_gpio.h \
  SDK/modules/nrfx/nrfx.h SDK/integration/nrfx/nrfx_config.h \

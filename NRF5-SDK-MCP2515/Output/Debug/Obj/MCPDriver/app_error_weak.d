@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/app_error_weak.o: \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_error_weak.c \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_error.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_error_weak.c \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdio.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/__crossworks.h \
@@ -16,10 +16,10 @@ Output/Debug/Obj/MCPDriver/app_error_weak.o: \
  SDK/modules/nrfx/mdk/nrf51_to_nrf52840.h \
  SDK/modules/nrfx/mdk/nrf52_to_nrf52840.h \
  SDK/modules/nrfx/mdk/compiler_abstraction.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\sdk_errors.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\sdk_errors.h \
  SDK/components/softdevice/s140/headers/nrf_error.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\nordic_common.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_error_weak.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\nordic_common.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_error_weak.h \
  SDK/components/libraries/log/nrf_log.h \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/string.h \
@@ -55,7 +55,7 @@ Output/Debug/Obj/MCPDriver/app_error_weak.o: \
  SDK/components/softdevice/s140/headers/nrf_error_soc.h \
  SDK/components/softdevice/s140/headers/nrf_nvic.h \
  SDK/components/libraries/util/app_error.h \
- C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_util_platform.h \
+ D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\util\app_util_platform.h \
  SDK/components/softdevice/s140/headers/nrf_sdm.h \
  SDK/components/softdevice/s140/headers/nrf_error_sdm.h \
  SDK/components/softdevice/s140/headers/nrf_soc.h
