@@ -37,8 +37,12 @@
       <file file_name="$(StudioDir)/source/thumb_crt0.s" />
     </folder>
     <folder Name="Board Support">
-      <file file_name="SDK/components/libraries/bsp/bsp.c" />
-      <file file_name="SDK/components/libraries/bsp/bsp_btn_ble.c" />
+      <file file_name="SDK/components/libraries/bsp/bsp.c">
+        <configuration Name="Debug" build_exclude_from_build="No" />
+      </file>
+      <file file_name="SDK/components/libraries/bsp/bsp_btn_ble.c">
+        <configuration Name="Debug" build_exclude_from_build="No" />
+      </file>
     </folder>
     <folder Name="nRF_Drivers">
       <file file_name="SDK/integration/nrfx/legacy/nrf_drv_clock.c" />

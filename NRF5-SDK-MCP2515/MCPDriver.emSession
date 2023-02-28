@@ -1,7 +1,9 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
@@ -27,6 +29,10 @@
   <ProjectSessionItem path="MCPDriver;MCPDriver"/>
   <ProjectSessionItem path="MCPDriver;MCPDriver;Application"/>
   <ProjectSessionItem path="MCPDriver;MCPDriver;Board Definition"/>
+  <ProjectSessionItem path="MCPDriver;MCPDriver;Board Support"/>
+  <ProjectSessionItem path="MCPDriver;MCPDriver;None"/>
+  <ProjectSessionItem path="MCPDriver;MCPDriver;nRF_Drivers"/>
+  <ProjectSessionItem path="MCPDriver;MCPDriver;nRF_Libraries"/>
   <ProjectSessionItem path="MCPDriver;MCPDriver;nRF_SoftDevice"/>
   <ProjectSessionItem path="MCPDriver;MCPDriver;Segger Startup Files"/>
  </Project>
@@ -65,12 +71,12 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="189" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="main.c" selected="0" top="169" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="358" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/MCP2515/mcp_can.c" useBinaryEdit="0" left="0" path="config/sdk_config.h" selected="0" top="358" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="3" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="main.c" selected="1" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="51" y="12239" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/MCP2515/mcp_can.c" useBinaryEdit="0" left="0" path="config/sdk_config.h" selected="0" top="12330" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/boards/boards.c" selected="0" top="30" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="80" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="MCP2515/mcp_can.c" selected="0" top="75" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/bsp/bsp.c" selected="0" top="45" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/bsp/bsp_btn_ble.c" selected="0" top="15" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="117" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="MCP2515/mcp_can.c" selected="0" top="234" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="481" useTextEdit="1" openedFrom="C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="SDK/components/libraries/bsp/bsp.c" selected="0" top="33" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="39" useTextEdit="1" openedFrom="C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="SDK/components/libraries/bsp/bsp_btn_ble.c" selected="0" top="24" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="D:/SDK nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="SDK/components/libraries/util/nordic_common.h" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="D:/SDK nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="SDK/modules/nrfx/mdk/nrf.h" selected="0" top="57" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="D:/SDK nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="SDK/components/softdevice/s140/headers/nrf_sdm.h" selected="0" top="162" codecName="Default"/>
@@ -90,7 +96,7 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="235" useTextEdit="1" openedFrom="D:/SDK nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="0" path="SDK/external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" selected="0" top="231" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/experimental_section_vars/nrf_section_iter.c" selected="0" top="27" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/external/segger_rtt/SEGGER_RTT.c" selected="0" top="228" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="401" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/MCP2515/mcp_can.c" useBinaryEdit="0" left="0" path="SDK/components/softdevice/common/nrf_sdh.c" selected="0" top="375" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="170" useTextEdit="1" openedFrom="C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/MCP2515/mcp_can.c" useBinaryEdit="0" left="0" path="SDK/components/softdevice/common/nrf_sdh.c" selected="0" top="164" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/SDK/components/softdevice/common/nrf_sdh.c" useBinaryEdit="0" left="0" path="SDK/components/softdevice/common/nrf_sdh.h" selected="0" top="48" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="4" y="40" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/integration/nrfx/legacy/nrf_drv_rng.c" selected="0" top="22" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="10" y="812" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/ble/ble_advertising/ble_advertising.c" selected="0" top="803" codecName="Default"/>
@@ -100,14 +106,19 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/SDK/components/softdevice/common/nrf_sdh.c" useBinaryEdit="0" left="0" path="SDK/components/libraries/util/sdk_common.h" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="36" y="119" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/integration/nrfx/legacy/nrf_drv_twi.h" selected="0" top="114" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="27" y="175" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../components/libraries/libuarte/nrf_libuarte_drv.h" selected="0" top="158" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="219" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/util/app_util.h" selected="0" top="202" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="219" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/util/app_util.h" selected="0" top="205" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="38" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/modules/nrfx/drivers/include/nrfx_timer.h" selected="0" top="61" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/crypto/backend/nrf_hw/nrf_hw_backend_init.c" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/crypto/backend/nrf_hw/nrf_hw_backend_rng.c" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/crypto/backend/nrf_hw/nrf_hw_backend_rng_mbedtls.c" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/modules/nrfx/drivers/src/nrfx_uart.c" selected="0" top="156" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="9" y="668" useTextEdit="1" openedFrom="D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/main.c" useBinaryEdit="0" left="3" path="SDK/components/libraries/mem_manager/mem_manager.c" selected="0" top="566" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="273" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../C-testing-Code/main.c" selected="1" top="268" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="31" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="C:/Users/Administrator/AppData/Local/SEGGER/SEGGER Embedded Studio/v3/tools.xml" selected="0" top="22" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="605" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/integration/nrfx/legacy/nrf_drv_clock.c" selected="0" top="579" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="58" useTextEdit="1" openedFrom="C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/SDK/components/libraries/bsp/bsp_btn_ble.c" useBinaryEdit="0" left="0" path="SDK/components/libraries/bsp/bsp_btn_ble.h" selected="0" top="42" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="48" useTextEdit="1" openedFrom="C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/SDK/components/libraries/bsp/bsp_btn_ble.h" useBinaryEdit="0" left="0" path="SDK/components/softdevice/s140/headers/ble.h" selected="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="1678" useTextEdit="1" openedFrom="C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/SDK/components/softdevice/common/nrf_sdh.c" useBinaryEdit="0" left="0" path="SDK/components/toolchain/cmsis/include/core_cm4.h" selected="0" top="1665" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="46" y="46" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SDK/components/libraries/util/app_error_weak.c" selected="0" top="44" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="MCPDriver" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="D:/SDK nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/MCP2515/mcp_can.c&#xa;D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/MCP2515/mcp_can.c&#xa;D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/main.c&#xa;C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/C-testing-Code/main.c&#xa;D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/MCP2515/mcp_can.c&#xa;C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/C-testing-Code/pca10056/blank/ses/MCP2515/mcp_can.c&#xa;D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN_github/NRF5-SDK-MCP2515/MCP2515/mcp_can.c&#xa;D:/SDK_nRF/nRF5_SDK_17.1.0_ddde560/examples/My projects/CAN-2515-C_testing/NRF5-SDK-MCP2515/MCP2515/mcp_can.c" fileDialogInitialDirectory="C:/NRFSDK/nRF5_SDK_17.1.0_ddde560/examples/My projects/C-testing-Code" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

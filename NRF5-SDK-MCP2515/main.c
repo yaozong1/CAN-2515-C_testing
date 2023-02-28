@@ -149,39 +149,24 @@ static void mem_init(void)
 
 /**@brief Function for initializing the clock.
  */
-static void clock_init(void)
-{
-    NRF_LOG_DEBUG("Clock Initialization...");
+//static void clock_init(void)
+//{
+//    NRF_LOG_DEBUG("Clock Initialization...");
 
-    ret_code_t err_code;
+//    ret_code_t err_code;
 
-    //Initialize clock module
-    err_code = nrf_drv_clock_init();
-    APP_ERROR_CHECK(err_code);
+//    //Initialize clock module
+//    err_code = nrf_drv_clock_init();
+//    APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_clock_lfclk_request(NULL);
-    APP_ERROR_CHECK(err_code);
+//    err_code = nrf_drv_clock_lfclk_request(NULL);
+//    APP_ERROR_CHECK(err_code);
 
-    NRF_LOG_DEBUG("Clock Initialization COMPLETED.");
-}
+//    NRF_LOG_DEBUG("Clock Initialization COMPLETED.");
+//}
 
 
-/**@brief Function for the Timer initialization.
- *
- * @details Initializes the timer module. This creates and starts application timers.
- */
-static void timers_init(void)
-{
-    NRF_LOG_DEBUG("Timer Initialization...");
 
-    ret_code_t err_code;
-
-    // Initialize timer module.
-    err_code = app_timer_init();
-    APP_ERROR_CHECK(err_code);
-
-    NRF_LOG_DEBUG("Timer Initialization COMPLETED.");
-}
 
 
 /**@brief Function for initializing buttons and leds.
@@ -194,10 +179,10 @@ static void buttons_leds_init(void)
     bsp_event_t startup_event;
 
     err_code = bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_event_handler);
-    APP_ERROR_CHECK(err_code);
+    //APP_ERROR_CHECK(err_code);
 
-    err_code = bsp_btn_ble_init(NULL, &startup_event);
-    APP_ERROR_CHECK(err_code);
+    //err_code = bsp_btn_ble_init(NULL, &startup_event);
+    //APP_ERROR_CHECK(err_code);
 
     NRF_LOG_DEBUG("LED & Buttons Initialization COMPLETED.");
 }
@@ -243,7 +228,7 @@ int main(void)
 
 
 
-     printf("enable CAN power\r\n");
+ //    printf("enable CAN power\r\n");
 
 
     //Enable CAN POWER
@@ -251,17 +236,21 @@ int main(void)
     nrf_delay_ms(10);
     nrf_gpio_pin_write(NRF_GPIO_PIN_MAP(0,0),1);
     nrf_delay_ms(10);
-    printf("enable CAN power\r\n");
-
+ //   printf("enable CAN power\r\n");
+  //  buttons_leds_init();//important
+    bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_event_handler);
     // Initialize.
     log_init();
-    mem_init();
+    nrf_mem_init();
+   // mem_init();
+    mcp_spi_init();
     //clock_init();
     //timers_init();
 
     //power_management_init();
-    buttons_leds_init();//important
-    can_init();
+   
+    //can_init();
+    mcp_can_begin(CAN_250KBPS, MCP_16MHz);
     
     // Start execution.
     NRF_LOG_DEBUG("CAN started.");

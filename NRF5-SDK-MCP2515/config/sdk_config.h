@@ -12142,7 +12142,7 @@
 #endif
 
 // <o> NFC_BLE_PAIR_LIB_BLE_OBSERVER_PRIO  
-// <i> Priority with which BLE events are dispatched to the NFC pairing library.
+// <i> Priority with which BLE events are dispatched to the NFC pairing library.F
 
 #ifndef NFC_BLE_PAIR_LIB_BLE_OBSERVER_PRIO
 #define NFC_BLE_PAIR_LIB_BLE_OBSERVER_PRIO 1
