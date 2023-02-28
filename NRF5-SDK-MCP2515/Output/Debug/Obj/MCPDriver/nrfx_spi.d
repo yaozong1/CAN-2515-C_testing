@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrfx_spi.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN_github\NRF5-SDK-MCP2515\SDK\modules\nrfx\drivers\src\nrfx_spi.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\drivers\src\nrfx_spi.c \
  SDK/modules/nrfx/nrfx.h SDK/integration/nrfx/nrfx_config.h \
  config/sdk_config.h SDK/modules/nrfx/drivers/nrfx_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \

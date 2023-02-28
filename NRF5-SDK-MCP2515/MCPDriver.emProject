@@ -36,13 +36,64 @@
     <folder Name="Segger Startup Files">
       <file file_name="$(StudioDir)/source/thumb_crt0.s" />
     </folder>
-    <folder Name="nrf_cc310">
-      <file file_name="SDK/external/nrf_cc310/lib/cortex-m4/hard-float/libnrf_cc310_0.9.13.a" />
-    </folder>
     <folder Name="Board Support">
       <file file_name="SDK/components/libraries/bsp/bsp.c" />
       <file file_name="SDK/components/libraries/bsp/bsp_btn_ble.c" />
     </folder>
+    <folder Name="nRF_Drivers">
+      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_clock.c" />
+      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_rng.c" />
+      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_uart.c" />
+      <file file_name="SDK/modules/nrfx/soc/nrfx_atomic.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_clock.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_gpiote.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/prs/nrfx_prs.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_rng.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_uart.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_uarte.c" />
+      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_spi.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_spim.c" />
+      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_spi.c" />
+    </folder>
+    <folder Name="Board Definition">
+      <file file_name="SDK/components/boards/boards.c" />
+    </folder>
+    <folder Name="nRF_Log">
+      <file file_name="SDK/components/libraries/log/src/nrf_log_backend_rtt.c" />
+      <file file_name="SDK/components/libraries/log/src/nrf_log_backend_serial.c" />
+      <file file_name="SDK/components/libraries/log/src/nrf_log_backend_uart.c" />
+      <file file_name="SDK/components/libraries/log/src/nrf_log_default_backends.c" />
+      <file file_name="SDK/components/libraries/log/src/nrf_log_frontend.c" />
+      <file file_name="SDK/components/libraries/log/src/nrf_log_str_formatter.c" />
+    </folder>
+    <folder Name="Application">
+      <file file_name="config/sdk_config.h" />
+      <file file_name="main.c">
+        <configuration
+          Name="Debug"
+          gcc_cplusplus_language_standard="gnu++98" />
+      </file>
+    </folder>
+    <folder Name="nRF_Segger_RTT">
+      <file file_name="SDK/external/segger_rtt/SEGGER_RTT.c" />
+      <file file_name="SDK/external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" />
+      <file file_name="SDK/external/segger_rtt/SEGGER_RTT_printf.c" />
+    </folder>
+    <folder Name="None">
+      <file file_name="SDK/modules/nrfx/mdk/ses_startup_nrf52840.s" />
+      <file file_name="SDK/modules/nrfx/mdk/ses_startup_nrf_common.s" />
+      <file file_name="SDK/modules/nrfx/mdk/system_nrf52840.c" />
+      <file file_name="MCP2515/mcp_can.c" />
+    </folder>
+    <folder Name="nRF_SoftDevice">
+      <file file_name="SDK/components/softdevice/common/nrf_sdh.c" />
+      <file file_name="SDK/components/softdevice/common/nrf_sdh_ble.c" />
+      <file file_name="SDK/components/softdevice/common/nrf_sdh_soc.c" />
+    </folder>
+    <configuration
+      Name="Debug"
+      c_files_are_cpp="No"
+      gcc_cplusplus_language_standard="gnu++98" />
     <folder Name="nRF_Libraries">
       <file file_name="SDK/components/libraries/button/app_button.c" />
       <file file_name="SDK/components/libraries/util/app_error.c" />
@@ -74,76 +125,6 @@
       <file file_name="SDK/components/libraries/strerror/nrf_strerror.c" />
       <file file_name="SDK/components/libraries/sensorsim/sensorsim.c" />
     </folder>
-    <folder Name="nRF_Drivers">
-      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_clock.c" />
-      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_rng.c" />
-      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_uart.c" />
-      <file file_name="SDK/modules/nrfx/soc/nrfx_atomic.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_clock.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_gpiote.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/prs/nrfx_prs.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_rng.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_uart.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_uarte.c" />
-      <file file_name="SDK/integration/nrfx/legacy/nrf_drv_spi.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_spim.c" />
-      <file file_name="SDK/modules/nrfx/drivers/src/nrfx_spi.c" />
-    </folder>
-    <folder Name="Board Definition">
-      <file file_name="SDK/components/boards/boards.c" />
-    </folder>
-    <folder Name="nRF_Log">
-      <file file_name="SDK/components/libraries/log/src/nrf_log_backend_rtt.c" />
-      <file file_name="SDK/components/libraries/log/src/nrf_log_backend_serial.c" />
-      <file file_name="SDK/components/libraries/log/src/nrf_log_backend_uart.c" />
-      <file file_name="SDK/components/libraries/log/src/nrf_log_default_backends.c" />
-      <file file_name="SDK/components/libraries/log/src/nrf_log_frontend.c" />
-      <file file_name="SDK/components/libraries/log/src/nrf_log_str_formatter.c" />
-    </folder>
-    <folder Name="nRF_Crypto">
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_aead.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_aes.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_aes_shared.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_ecc.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_ecdh.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_ecdsa.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_eddsa.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_error.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_hash.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_hkdf.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_hmac.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_init.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_rng.c" />
-      <file file_name="SDK/components/libraries/crypto/nrf_crypto_shared.c" />
-    </folder>
-    <folder Name="Application">
-      <file file_name="config/sdk_config.h" />
-      <file file_name="main.c">
-        <configuration
-          Name="Debug"
-          gcc_cplusplus_language_standard="gnu++98" />
-      </file>
-    </folder>
-    <folder Name="nRF_Segger_RTT">
-      <file file_name="SDK/external/segger_rtt/SEGGER_RTT.c" />
-      <file file_name="SDK/external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" />
-      <file file_name="SDK/external/segger_rtt/SEGGER_RTT_printf.c" />
-    </folder>
-    <folder Name="None">
-      <file file_name="SDK/modules/nrfx/mdk/ses_startup_nrf52840.s" />
-      <file file_name="SDK/modules/nrfx/mdk/ses_startup_nrf_common.s" />
-      <file file_name="SDK/modules/nrfx/mdk/system_nrf52840.c" />
-      <file file_name="MCP2515/mcp_can.c" />
-    </folder>
-    <folder Name="nRF_SoftDevice">
-      <file file_name="SDK/components/softdevice/common/nrf_sdh.c" />
-      <file file_name="SDK/components/softdevice/common/nrf_sdh_ble.c" />
-      <file file_name="SDK/components/softdevice/common/nrf_sdh_soc.c" />
-    </folder>
-    <configuration
-      Name="Debug"
-      c_files_are_cpp="No"
-      gcc_cplusplus_language_standard="gnu++98" />
   </project>
   <configuration
     Name="Release"
