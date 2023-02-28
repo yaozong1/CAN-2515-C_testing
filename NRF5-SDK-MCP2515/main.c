@@ -69,20 +69,6 @@ static void sleep_mode_enter(void)
 
 
 
-/**@brief Function for handling the idle state (main loop).
- *
- * @details If there is no pending log operation, then sleep until next the next event occurs.
- */
-static void idle_state_handle(void)
-{
-    ret_code_t err_code;
-
-    if (NRF_LOG_PROCESS() == false)
-    {
-        nrf_pwr_mgmt_run();
-    }
-}
-
 
 /**@brief Function for handling events from the BSP module.
  *
@@ -375,26 +361,6 @@ int main(void)
                 mcp_can_send_msg(can_idd, ext_send, lens, buff);
                 nrf_delay_ms(400);
 
-        //if (!nrf_gpio_pin_read(MCP2515_PIN_INT))
-        //{         
-        //   // nrf_gpio_pin_clear(BSP_LED_3);
-            
-        //    if(CAN_MSGAVAIL == mcp_can_check_receive())
-        //    {
-        //        uint32_t can_id;
-        //        uint8_t buf[16];                
-        //        uint8_t len;
 
-        //        mcp_can_read_msg(&can_id, &len, buf);
-        //        NRF_LOG_INFO("CAN ID: %x\t Data length: %u\t Data:", can_id, len);
-        //        NRF_LOG_HEXDUMP_DEBUG(NRF_LOG_PUSH(buf), len);
-        //        NRF_LOG_FLUSH();
-        //    }
-
-        //    nrf_delay_ms(1);
-        //   // nrf_gpio_pin_set(BSP_LED_3);
-        //}
-
-        idle_state_handle();
     }
 }
