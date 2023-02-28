@@ -43,11 +43,6 @@
       <file file_name="SDK/components/libraries/bsp/bsp.c" />
       <file file_name="SDK/components/libraries/bsp/bsp_btn_ble.c" />
     </folder>
-    <folder Name="nRF_Crypto backend nRF HW">
-      <file file_name="SDK/components/libraries/crypto/backend/nrf_hw/nrf_hw_backend_init.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/nrf_hw/nrf_hw_backend_rng.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/nrf_hw/nrf_hw_backend_rng_mbedtls.c" />
-    </folder>
     <folder Name="nRF_Libraries">
       <file file_name="SDK/components/libraries/button/app_button.c" />
       <file file_name="SDK/components/libraries/util/app_error.c" />
@@ -160,7 +155,6 @@
       <file file_name="SDK/components/softdevice/common/nrf_sdh_ble.c" />
       <file file_name="SDK/components/softdevice/common/nrf_sdh_soc.c" />
     </folder>
-    <folder Name="MCP2515" />
     <configuration
       Name="Debug"
       c_files_are_cpp="No"
