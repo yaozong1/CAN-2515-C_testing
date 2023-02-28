@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/boards.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\boards\boards.c \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\boards\boards.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\boards\boards.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\boards\boards.h \
  SDK/modules/nrfx/hal/nrf_gpio.h SDK/modules/nrfx/nrfx.h \
  SDK/integration/nrfx/nrfx_config.h config/sdk_config.h \
  SDK/modules/nrfx/drivers/nrfx_common.h \
@@ -50,4 +50,4 @@ Output/Debug/Obj/MCPDriver/boards.o: \
  SDK/components/softdevice/s140/headers/nrf_sd_def.h \
  SDK/components/softdevice/s140/headers/nrf_soc.h \
  SDK/modules/nrfx/drivers/nrfx_errors.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\boards\pca10056.h
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\boards\pca10056.h

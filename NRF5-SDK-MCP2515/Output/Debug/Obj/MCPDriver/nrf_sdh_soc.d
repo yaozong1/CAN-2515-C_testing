@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\softdevice\common\nrf_sdh_soc.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\softdevice\common\nrf_sdh_soc.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -27,7 +27,7 @@ Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o: \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/util/nrf_assert.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\softdevice\common\nrf_sdh_soc.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\softdevice\common\nrf_sdh_soc.h \
  SDK/components/libraries/experimental_section_vars/nrf_section_iter.h \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \
  SDK/components/libraries/util/nordic_common.h \
@@ -37,7 +37,7 @@ Output/Debug/Obj/MCPDriver/nrf_sdh_soc.o: \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
  SDK/components/softdevice/s140/headers/nrf_error.h \
  SDK/components/softdevice/s140/headers/nrf_error_soc.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\softdevice\common\nrf_sdh.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\softdevice\common\nrf_sdh.h \
  SDK/components/libraries/util/sdk_errors.h \
  SDK/components/libraries/util/app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdio.h \

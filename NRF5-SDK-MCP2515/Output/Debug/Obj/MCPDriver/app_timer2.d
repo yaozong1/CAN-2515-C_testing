@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/app_timer2.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\timer\app_timer2.c \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\timer\app_timer.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\timer\app_timer2.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\timer\app_timer.h \
  config/sdk_config.h SDK/components/libraries/util/app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdio.h \
@@ -65,5 +65,5 @@ Output/Debug/Obj/MCPDriver/app_timer2.o: \
  SDK/components/libraries/strerror/nrf_strerror.h \
  SDK/components/libraries/log/src/nrf_log_internal.h \
  SDK/components/libraries/log/nrf_log_types.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\timer\drv_rtc.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\timer\drv_rtc.h \
  SDK/modules/nrfx/hal/nrf_rtc.h

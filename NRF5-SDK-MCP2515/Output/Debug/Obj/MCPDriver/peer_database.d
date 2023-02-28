@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/peer_database.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_database.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_database.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -27,8 +27,8 @@ Output/Debug/Obj/MCPDriver/peer_database.o: \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/util/nrf_assert.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_database.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_types.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_database.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_types.h \
  SDK/components/softdevice/s140/headers/ble_gap.h \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
  SDK/components/softdevice/s140/headers/nrf_error.h \
@@ -53,10 +53,10 @@ Output/Debug/Obj/MCPDriver/peer_database.o: \
  SDK/components/libraries/util/app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdio.h \
  SDK/components/libraries/util/app_error_weak.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_internal.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_internal.h \
  SDK/components/libraries/util/sdk_errors.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_data_storage.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\pm_buffer.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_data_storage.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\pm_buffer.h \
  SDK/components/libraries/atomic_flags/nrf_atflags.h \
  SDK/components/libraries/log/nrf_log.h \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \

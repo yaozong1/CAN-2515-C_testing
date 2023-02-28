@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/ble_advdata.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_advdata.c \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_advdata.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_advdata.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_advdata.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/string.h \
@@ -41,7 +41,7 @@ Output/Debug/Obj/MCPDriver/ble_advdata.o: \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/util/nrf_assert.h \
  SDK/components/softdevice/s140/headers/ble_gap.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_srv_common.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_srv_common.h \
  SDK/components/softdevice/s140/headers/ble_types.h \
  SDK/components/libraries/util/app_util.h \
  SDK/components/softdevice/s140/headers/ble_gatt.h

@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrf_log_backend_serial.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_backend_serial.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_backend_serial.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -27,7 +27,7 @@ Output/Debug/Obj/MCPDriver/nrf_log_backend_serial.o: \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/util/nrf_assert.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_backend_serial.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_backend_serial.h \
  SDK/components/libraries/log/nrf_log_backend_interface.h \
  SDK/components/libraries/memobj/nrf_memobj.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdlib.h \
@@ -52,5 +52,5 @@ Output/Debug/Obj/MCPDriver/nrf_log_backend_serial.o: \
  SDK/components/libraries/log/nrf_log_ctrl.h \
  SDK/components/libraries/log/src/nrf_log_ctrl_internal.h \
  SDK/components/libraries/log/nrf_log_backend_interface.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_internal.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\log\src\nrf_log_internal.h \
  SDK/components/libraries/log/nrf_log_types.h

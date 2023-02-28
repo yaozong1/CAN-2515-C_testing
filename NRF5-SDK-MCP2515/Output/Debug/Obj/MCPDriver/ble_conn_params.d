@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/ble_conn_params.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_conn_params.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_conn_params.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -32,7 +32,7 @@ Output/Debug/Obj/MCPDriver/ble_conn_params.o: \
  SDK/components/softdevice/s140/headers/ble_hci.h \
  SDK/components/softdevice/s140/headers/ble_err.h \
  SDK/components/softdevice/s140/headers/nrf_error.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_conn_params.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_conn_params.h \
  SDK/components/softdevice/s140/headers/ble.h \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
  SDK/components/softdevice/s140/headers/ble_err.h \
@@ -44,12 +44,12 @@ Output/Debug/Obj/MCPDriver/ble_conn_params.o: \
  SDK/components/softdevice/s140/headers/ble_gatt.h \
  SDK/components/softdevice/s140/headers/ble_gattc.h \
  SDK/components/softdevice/s140/headers/ble_gatts.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_srv_common.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_srv_common.h \
  SDK/components/softdevice/s140/headers/ble_types.h \
  SDK/components/libraries/util/app_util.h \
  SDK/components/softdevice/s140/headers/ble_gap.h \
  SDK/components/softdevice/s140/headers/ble_gatt.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_conn_state.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\common\ble_conn_state.h \
  SDK/components/libraries/atomic/nrf_atomic.h \
  SDK/components/softdevice/common/nrf_sdh_ble.h \
  SDK/components/libraries/experimental_section_vars/nrf_section_iter.h \

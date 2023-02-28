@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/cc310_backend_ecdsa.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdsa.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdsa.c \
  config/sdk_config.h SDK/components/libraries/util/nordic_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/__crossworks.h \
@@ -55,9 +55,9 @@ Output/Debug/Obj/MCPDriver/cc310_backend_ecdsa.o: \
  SDK/components/libraries/crypto/backend/oberon/oberon_backend_ecdsa.h \
  SDK/components/libraries/crypto/backend/micro_ecc/micro_ecc_backend_ecdsa.h \
  SDK/components/libraries/crypto/backend/optiga/optiga_backend_ecdsa.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdsa.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdsa.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
  SDK/components/libraries/mutex/nrf_mtx.h SDK/modules/nrfx/mdk/nrf.h \
  SDK/modules/nrfx/mdk/nrf52840.h \
  SDK/components/toolchain/cmsis/include/core_cm4.h \

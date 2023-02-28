@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrf_crypto_hash.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -27,12 +27,12 @@ Output/Debug/Obj/MCPDriver/nrf_crypto_hash.o: \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/util/nrf_assert.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_error.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_error.h \
  SDK/components/libraries/util/sdk_errors.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_types.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash_shared.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash_backend.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_types.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash_shared.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_hash_backend.h \
  SDK/components/libraries/crypto/backend/cc310/cc310_backend_hash.h \
  SDK/components/libraries/crypto/nrf_crypto_hash_shared.h \
  SDK/external/nrf_cc310/include/crys_hash.h \
@@ -45,7 +45,7 @@ Output/Debug/Obj/MCPDriver/nrf_crypto_hash.o: \
  SDK/components/libraries/crypto/backend/cc310_bl/cc310_bl_backend_hash.h \
  SDK/components/libraries/crypto/backend/nrf_sw/nrf_sw_backend_hash.h \
  SDK/components/libraries/util/app_util.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_mem.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_mem.h \
  SDK/components/libraries/util/sdk_alloca.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_shared.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\nrf_crypto_shared.h \
  SDK/components/libraries/util/sdk_macros.h

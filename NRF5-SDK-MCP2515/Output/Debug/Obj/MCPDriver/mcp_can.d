@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/mcp_can.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\MCP2515\mcp_can.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\MCP2515\mcp_can.c \
  SDK/components/libraries/delay/nrf_delay.h SDK/modules/nrfx/nrfx.h \
  SDK/integration/nrfx/nrfx_config.h config/sdk_config.h \
  SDK/modules/nrfx/drivers/nrfx_common.h \
@@ -62,8 +62,8 @@ Output/Debug/Obj/MCPDriver/mcp_can.o: \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \
  SDK/components/libraries/log/nrf_log_types.h \
  SDK/components/libraries/sortlist/nrf_sortlist.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\MCP2515\mcp_can.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\MCP2515\mcp_can_dfs.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\MCP2515\mcp_can.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\MCP2515\mcp_can_dfs.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/inttypes.h \
  SDK/integration/nrfx/legacy/nrf_drv_gpiote.h \
  SDK/modules/nrfx/drivers/include/nrfx_gpiote.h \

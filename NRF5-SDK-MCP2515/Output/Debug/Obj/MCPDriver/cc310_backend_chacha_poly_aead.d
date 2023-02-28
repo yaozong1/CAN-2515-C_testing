@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/cc310_backend_chacha_poly_aead.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_chacha_poly_aead.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_chacha_poly_aead.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -30,7 +30,7 @@ Output/Debug/Obj/MCPDriver/cc310_backend_chacha_poly_aead.o: \
  SDK/modules/nrfx/drivers/nrfx_common.h \
  SDK/modules/nrfx/mdk/nrf_peripherals.h \
  SDK/modules/nrfx/mdk/nrf52840_peripherals.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
  SDK/components/libraries/mutex/nrf_mtx.h \
  SDK/components/libraries/atomic/nrf_atomic.h \
  SDK/components/libraries/util/nrf_assert.h \
@@ -38,7 +38,7 @@ Output/Debug/Obj/MCPDriver/cc310_backend_chacha_poly_aead.o: \
  SDK/external/nrf_cc310/include/crys_error.h \
  SDK/external/nrf_cc310/include/ssi_pal_types.h \
  SDK/external/nrf_cc310/include/ssi_pal_types_plat.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_chacha_poly_aead.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_chacha_poly_aead.h \
  SDK/external/nrf_cc310/include/crys_chacha_poly.h \
  SDK/external/nrf_cc310/include/crys_chacha.h \
  SDK/external/nrf_cc310/include/crys_poly.h \
@@ -47,4 +47,4 @@ Output/Debug/Obj/MCPDriver/cc310_backend_chacha_poly_aead.o: \
  SDK/components/libraries/crypto/nrf_crypto_types.h \
  SDK/components/libraries/crypto/nrf_crypto_aead_shared.h \
  SDK/components/libraries/crypto/nrf_crypto_types.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h

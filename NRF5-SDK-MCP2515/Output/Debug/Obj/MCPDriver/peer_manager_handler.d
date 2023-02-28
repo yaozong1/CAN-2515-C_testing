@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/peer_manager_handler.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_handler.c \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_handler.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_handler.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_handler.h \
  SDK/components/softdevice/s140/headers/ble.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  SDK/components/softdevice/s140/headers/nrf_svc.h \
@@ -25,7 +25,7 @@ Output/Debug/Obj/MCPDriver/peer_manager_handler.o: \
  SDK/modules/nrfx/mdk/nrf52_to_nrf52840.h \
  SDK/modules/nrfx/mdk/compiler_abstraction.h \
  SDK/components/softdevice/s140/headers/ble_gatts.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/string.h \
@@ -42,7 +42,7 @@ Output/Debug/Obj/MCPDriver/peer_manager_handler.o: \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/util/nrf_assert.h \
  SDK/components/softdevice/s140/headers/ble_gap.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_types.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_types.h \
  SDK/components/softdevice/s140/headers/ble_hci.h \
  SDK/components/ble/common/ble_gatt_db.h \
  SDK/components/softdevice/s140/headers/ble_gattc.h \
@@ -54,8 +54,8 @@ Output/Debug/Obj/MCPDriver/peer_manager_handler.o: \
  SDK/components/libraries/util/app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdio.h \
  SDK/components/libraries/util/app_error_weak.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_database.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_internal.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_database.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\peer_manager\peer_manager_internal.h \
  SDK/components/libraries/util/sdk_errors.h \
  SDK/components/libraries/util/app_error.h \
  SDK/components/ble/common/ble_conn_state.h \

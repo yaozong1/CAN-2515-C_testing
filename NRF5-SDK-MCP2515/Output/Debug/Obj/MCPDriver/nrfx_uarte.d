@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrfx_uarte.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\drivers\src\nrfx_uarte.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\drivers\src\nrfx_uarte.c \
  SDK/modules/nrfx/nrfx.h SDK/integration/nrfx/nrfx_config.h \
  config/sdk_config.h SDK/modules/nrfx/drivers/nrfx_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
@@ -50,7 +50,7 @@ Output/Debug/Obj/MCPDriver/nrfx_uarte.o: \
  SDK/modules/nrfx/drivers/nrfx_errors.h \
  SDK/modules/nrfx/drivers/include/nrfx_uarte.h \
  SDK/modules/nrfx/hal/nrf_uarte.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\drivers\src\prs/nrfx_prs.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\modules\nrfx\drivers\src\prs/nrfx_prs.h \
  SDK/modules/nrfx/hal/nrf_gpio.h SDK/integration/nrfx/nrfx_log.h \
  SDK/components/libraries/log/nrf_log.h \
  SDK/components/libraries/util/sdk_common.h \

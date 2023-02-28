@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrf_ble_qwr.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\nrf_ble_qwr\nrf_ble_qwr.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\nrf_ble_qwr\nrf_ble_qwr.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -28,7 +28,7 @@ Output/Debug/Obj/MCPDriver/nrf_ble_qwr.o: \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/util/nrf_assert.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdlib.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\nrf_ble_qwr\nrf_ble_qwr.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\ble\nrf_ble_qwr\nrf_ble_qwr.h \
  SDK/components/libraries/util/nordic_common.h \
  SDK/components/softdevice/s140/headers/ble.h \
  SDK/components/softdevice/s140/headers/nrf_svc.h \

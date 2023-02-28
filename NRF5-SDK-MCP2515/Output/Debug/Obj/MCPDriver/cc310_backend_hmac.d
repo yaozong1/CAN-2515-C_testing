@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/cc310_backend_hmac.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_hmac.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_hmac.c \
  SDK/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -38,7 +38,7 @@ Output/Debug/Obj/MCPDriver/cc310_backend_hmac.o: \
  SDK/components/libraries/log/nrf_log_types.h \
  SDK/components/libraries/log/nrf_log_types.h \
  SDK/components/libraries/crypto/nrf_crypto_hmac_shared.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_hmac.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_hmac.h \
  SDK/external/nrf_cc310/include/crys_hmac.h \
  SDK/external/nrf_cc310/include/ssi_pal_types.h \
  SDK/external/nrf_cc310/include/ssi_pal_types_plat.h \
@@ -54,8 +54,8 @@ Output/Debug/Obj/MCPDriver/cc310_backend_hmac.o: \
  SDK/external/nrf_cc310/include/crys_hmac_defs.h \
  SDK/external/nrf_cc310/include/crys_hmac_error.h \
  SDK/external/nrf_cc310/include/crys_hash.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
  SDK/components/libraries/mutex/nrf_mtx.h \
  SDK/components/libraries/atomic/nrf_atomic.h \
  SDK/components/libraries/util/nrf_assert.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h

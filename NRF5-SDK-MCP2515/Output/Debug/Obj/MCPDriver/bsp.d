@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/bsp.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp.c \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
  SDK/components/boards/boards.h SDK/modules/nrfx/hal/nrf_gpio.h \
@@ -52,7 +52,7 @@ Output/Debug/Obj/MCPDriver/bsp.o: \
  SDK/modules/nrfx/drivers/nrfx_errors.h SDK/components/boards/pca10056.h \
  SDK/components/libraries/button/app_button.h \
  SDK/components/libraries/util/app_error.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp_config.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\bsp\bsp_config.h \
  SDK/components/libraries/timer/app_timer.h \
  SDK/components/libraries/log/nrf_log_instance.h \
  SDK/components/libraries/experimental_section_vars/nrf_section.h \

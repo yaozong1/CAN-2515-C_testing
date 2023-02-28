@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/cc310_backend_ecdh.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdh.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdh.c \
  config/sdk_config.h SDK/components/libraries/util/nordic_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/__crossworks.h \
@@ -75,9 +75,9 @@ Output/Debug/Obj/MCPDriver/cc310_backend_ecdh.o: \
  SDK/components/libraries/crypto/nrf_crypto_shared.h \
  SDK/components/libraries/util/sdk_macros.h \
  SDK/components/libraries/crypto/nrf_crypto_mem.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_mutex.h \
  SDK/components/libraries/mutex/nrf_mtx.h \
  SDK/components/libraries/atomic/nrf_atomic.h \
  SDK/components/libraries/util/nrf_assert.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdh.h
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_shared.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\components\libraries\crypto\backend\cc310\cc310_backend_ecdh.h

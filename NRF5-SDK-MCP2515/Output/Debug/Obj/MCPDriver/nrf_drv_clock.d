@@ -1,7 +1,7 @@
 Output/Debug/Obj/MCPDriver/nrf_drv_clock.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\integration\nrfx\legacy\nrf_drv_clock.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\integration\nrfx\legacy\nrf_drv_clock.c \
  SDK/components/libraries/util/nordic_common.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\integration\nrfx\legacy\nrf_drv_clock.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\examples\My\ projects\CAN-2515-C_testing\NRF5-SDK-MCP2515\SDK\integration\nrfx\legacy\nrf_drv_clock.h \
  SDK/modules/nrfx/drivers/include/nrfx_clock.h SDK/modules/nrfx/nrfx.h \
  SDK/integration/nrfx/nrfx_config.h config/sdk_config.h \
  SDK/modules/nrfx/drivers/nrfx_common.h \

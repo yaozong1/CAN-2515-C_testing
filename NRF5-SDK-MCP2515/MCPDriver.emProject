@@ -105,14 +105,6 @@
       <file file_name="SDK/components/libraries/log/src/nrf_log_frontend.c" />
       <file file_name="SDK/components/libraries/log/src/nrf_log_str_formatter.c" />
     </folder>
-    <folder Name="nRF_TLS">
-      <file file_name="SDK/external/mbedtls/library/aes.c" />
-      <file file_name="SDK/external/mbedtls/library/ctr_drbg.c" />
-      <file file_name="SDK/external/mbedtls/library/platform_util.c" />
-    </folder>
-    <folder Name="nRF_Oberon_Crypto">
-      <file file_name="SDK/external/nrf_oberon/lib/cortex-m4/hard-float/liboberon_3.0.6.a" />
-    </folder>
     <folder Name="nRF_Crypto">
       <file file_name="SDK/components/libraries/crypto/nrf_crypto_aead.c" />
       <file file_name="SDK/components/libraries/crypto/nrf_crypto_aes.c" />
@@ -184,9 +176,6 @@
       <file file_name="SDK/components/ble/peer_manager/pm_buffer.c" />
       <file file_name="SDK/components/ble/peer_manager/security_dispatcher.c" />
       <file file_name="SDK/components/ble/peer_manager/security_manager.c" />
-    </folder>
-    <folder Name="UTF8/UTF16 converter">
-      <file file_name="SDK/external/utf_converter/utf.c" />
     </folder>
     <folder Name="nRF_SoftDevice">
       <file file_name="SDK/components/softdevice/common/nrf_sdh.c" />
