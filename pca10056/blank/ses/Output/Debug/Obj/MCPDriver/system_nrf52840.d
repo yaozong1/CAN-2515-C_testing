@@ -5,11 +5,11 @@ Output/Debug/Obj/MCPDriver/system_nrf52840.o: \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
  D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\mdk\nrf.h \
  D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\mdk\nrf52840.h \
- SDK/components/toolchain/cmsis/include/core_cm4.h \
- SDK/components/toolchain/cmsis/include/cmsis_version.h \
- SDK/components/toolchain/cmsis/include/cmsis_compiler.h \
- SDK/components/toolchain/cmsis/include/cmsis_gcc.h \
- SDK/components/toolchain/cmsis/include/mpu_armv7.h \
+ ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
+ ../../../../../../components/toolchain/cmsis/include/cmsis_version.h \
+ ../../../../../../components/toolchain/cmsis/include/cmsis_compiler.h \
+ ../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h \
+ ../../../../../../components/toolchain/cmsis/include/mpu_armv7.h \
  D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\mdk\system_nrf52840.h \
  D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\mdk\nrf52840_bitfields.h \
  D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\mdk\nrf51_to_nrf52840.h \
