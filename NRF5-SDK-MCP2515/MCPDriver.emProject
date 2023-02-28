@@ -135,21 +135,6 @@
       <file file_name="SDK/modules/nrfx/mdk/system_nrf52840.c" />
       <file file_name="MCP2515/mcp_can.c" />
     </folder>
-    <folder Name="nRF_Crypto backend CC310">
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_aes.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_aes_aead.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_chacha_poly_aead.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_ecc.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_ecdh.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_ecdsa.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_eddsa.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_hash.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_hmac.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_init.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_mutex.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_rng.c" />
-      <file file_name="SDK/components/libraries/crypto/backend/cc310/cc310_backend_shared.c" />
-    </folder>
     <folder Name="nRF_SoftDevice">
       <file file_name="SDK/components/softdevice/common/nrf_sdh.c" />
       <file file_name="SDK/components/softdevice/common/nrf_sdh_ble.c" />
