@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/nrf_atomic.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic.c \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.68/include/stdbool.h \
@@ -30,4 +30,4 @@ Output/Debug/Obj/MCPDriver/nrf_atomic.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic_internal.h
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic_internal.h

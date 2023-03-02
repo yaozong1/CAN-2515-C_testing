@@ -1,0 +1,6 @@
+.sdh_stack_observers :
+{
+  PROVIDE(__start_sdh_stack_observers = .);
+  KEEP(*(SORT(.sdh_stack_observers*)))
+  PROVIDE(__stop_sdh_stack_observers = .);
+} > FLASH

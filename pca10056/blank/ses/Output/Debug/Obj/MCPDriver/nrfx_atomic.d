@@ -1,6 +1,6 @@
 Output/Debug/Obj/MCPDriver/nrfx_atomic.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\soc\nrfx_atomic.c \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\soc\nrfx_atomic.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\modules\nrfx\soc\nrfx_atomic.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\modules\nrfx\soc\nrfx_atomic.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -52,4 +52,4 @@ Output/Debug/Obj/MCPDriver/nrfx_atomic.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s140/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\soc\nrfx_atomic_internal.h
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\modules\nrfx\soc\nrfx_atomic_internal.h

@@ -1,5 +1,5 @@
 Output/Debug/Obj/MCPDriver/nrfx_prs.o: \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\prs\nrfx_prs.c \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\prs\nrfx_prs.c \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -51,7 +51,7 @@ Output/Debug/Obj/MCPDriver/nrfx_prs.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s140/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- D:\SDK_nRF\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\prs\nrfx_prs.h \
+ C:\NRFSDK\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\prs\nrfx_prs.h \
  ../../../../../../integration/nrfx/nrfx_log.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
